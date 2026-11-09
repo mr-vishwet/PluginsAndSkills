@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>__NAME__</title>
+    <!-- Turnstile: paste the sitekey into wrangler.jsonc vars, then uncomment.
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+    -->
+    <style>
+      body { font-family: system-ui, sans-serif; margin: 4rem auto; max-width: 34rem; padding: 0 1.5rem; line-height: 1.6; color: #16181d; }
+      label { display: block; margin-top: 1rem; font-weight: 600; }
+      input, textarea { width: 100%; padding: .5rem; margin-top: .3rem; border: 1px solid #c9ccd1; border-radius: 6px; font: inherit; }
+      button { margin-top: 1.25rem; padding: .6rem 1.2rem; background: #f6821f; color: #fff; border: 0; border-radius: 6px; font: inherit; cursor: pointer; }
+      #status { margin-top: 1rem; min-height: 1.5rem; }
+      .err { color: #b3261e; } .ok { color: #1a7f37; }
+    </style>
+  </head>
+  <body>
+    <h1>__NAME__</h1>
+    <p>Free on Cloudflare Workers: this page is a static asset, the form posts to a Worker, and the row lands in D1.</p>
+
+    <form id="contact">
+      <label>Name <input name="name" required maxlength="120" /></label>
+      <label>Email <input name="email" type="email" required maxlength="254" /></label>
+      <label>Message <textarea name="message" rows="6" required minlength="10" maxlength="5000"></textarea></label>
+      <!-- <div class="cf-turnstile" data-sitekey="YOUR_SITE_KEY"></div> -->
+      <button type="submit">Send</button>
+    </form>
+    <p id="status"></p>
+
+    <script>
+      const status = document.getElementById("status");
+      document.getElementById("contact").addEventListener("submit", async (event) => {
+        event.preventDefault();
+        const data = Object.fromEntries(new FormData(event.target));
+        // data.turnstileToken = document.querySelector(".cf-turnstile-response")?.value;
+        status.textContent = "Sending...";
+        status.className = "";
+        try {
+          const res = await fetch("/api/contact", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify(data),
+          });
+          const out = await res.json();
+          if (!res.ok) throw new Error(out.error || "request failed");
+          event.target.reset();
+          status.textContent = "Thanks — message stored.";
+          status.className = "ok";
+        } catch (err) {
+          status.textContent = err.message;
+          status.className = "err";
+        }
+      });
+    </script>
+  </body>
+</html>

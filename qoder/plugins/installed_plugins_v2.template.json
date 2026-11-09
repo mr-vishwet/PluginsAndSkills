@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "plugins": {
+    "qoder-context@qoderapp-bundler": [
+      {
+        "scope": "user",
+        "installPath": "<QODER_HOME>/plugins/cache/qoderapp-bundler/qoder-context/1.0.91.b22f2d0a",
+        "version": "1.0.91.b22f2d0a",
+        "userVisible": false,
+        "displayName": "Qoder Context"
+      }
+    ],
+    "Presentations@qoder-marketplace": [
+      {
+        "scope": "user",
+        "installPath": "<QODER_HOME>/plugins/cache/qoder-marketplace/Presentations/0.1.4",
+        "version": "0.1.4",
+        "marketId": "Presentations",
+        "displayName": "PPT"
+      }
+    ],
+    "office-excel@qoder-marketplace": [
+      {
+        "scope": "user",
+        "installPath": "<QODER_HOME>/plugins/cache/qoder-marketplace/office-excel/0.1.2",
+        "version": "0.1.2",
+        "marketId": "office-excel",
+        "displayName": "Excel"
+      }
+    ],
+    "better-harness@qoder-marketplace": [
+      {
+        "scope": "user",
+        "installPath": "<QODER_HOME>/plugins/cache/qoder-marketplace/better-harness/0.2.21",
+        "version": "0.2.21",
+        "marketId": "1945ab9d-2d90-4f94-b73e-fae24a0f0ac3",
+        "displayName": "Better Harness"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "chunk_words": [32, 64, 128, 256],
+  "chunk_overlap": [0, 8, 32],
+  "k1": [0.8, 1.2, 1.5, 2.0],
+  "b": [0.4, 0.75],
+  "title_boost": [1, 2, 4],
+  "path_boost": [0, 2, 4, 8],
+  "tag_boost": [1, 1.5, 3],
+  "freshness_weight": [0.0, 0.25, 0.6, 1.0],
+  "half_life_days": [30, 90, 365],
+  "fold_devanagari": [false, true],
+  "strip_stopwords": [false, true],
+  "_corpus_notes": "On the ObsessionWithObsedian vault: 0/487 notes have frontmatter, so tag_boost is inert; all mtimes fall in one month, so freshness_weight and half_life_days cannot help. next_experiment.py skips this key (it is not in the base config). MEASURED 2026-10-06 (manual-pathboost-0/2/4/8 in results.tsv): path_boost is FALSIFIED on the current eval set -- hit@1 0.3167 -> 0.3000 and mrr@10 0.3469 -> 0.3363 as it rises. Cause: only 3 of 60 questions contain a word from their gold note's directory name, so path tokens add weight no query can earn. The binding constraint is the eval set, not the ranker: 58/60 rows come from filenames that repeat across projects (README.md x10, SOLID Principles.md x10, Architecture.md x9). Next experiment must be eval-set construction with human-written project-scoped questions; re-test path_boost only on that set. REVERSED 2026-10-06 on evals/lily.handwritten.jsonl (32 hand-written project-scoped rows): path_boost=4 is the proposed keep -- hit@5 0.8438->0.9375, hit@1 0.6875->0.7188, mrr@10 0.7604->0.8008; per-row diff 7 improved / 1 regressed / 24 unchanged, and the gains land on the project-navigation rows exactly as hypothesised. So the earlier falsification was a verdict on the auto eval set, not on the ranker. See .docs/notes/autoresearch-review/2026-10-06-path-boost.md."
+}

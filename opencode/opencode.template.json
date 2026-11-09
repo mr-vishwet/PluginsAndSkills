@@ -1,0 +1,539 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "opencode/big-pickle",
+  "small_model": "opencode/mimo-v2.5-free",
+  "provider": {
+    "ox-alpha": {
+      "name": "Ox Alpha",
+      "npm": "@ai-sdk/openai-compatible",
+      "options": {
+        "baseURL": "http://localhost:3900/v1",
+        "apiKey": "oxalpha-chat"
+      },
+      "models": {
+        "ox-alpha": {
+          "name": "Ox Alpha",
+          "limit": {
+            "context": 1048576,
+            "input": 1048576,
+            "output": 131072
+          },
+          "tools": false,
+          "attachment": false,
+          "reasoning": false,
+          "temperature": true
+        }
+      }
+    },
+    "omniroute": {
+      "name": "OmniRoute",
+      "npm": "@ai-sdk/openai-compatible",
+      "options": {
+        "baseURL": "http://localhost:20128/v1",
+        "apiKey": "YOUR_OMNIROUTE_API_KEY"
+      },
+      "models": {
+        "auto/best-coding": {
+          "name": "Auto Best Coding — reasoning · tools",
+          "limit": {
+            "context": 1048576,
+            "output": 384000,
+            "input": 1048576
+          },
+          "tools": true,
+          "attachment": false,
+          "reasoning": true,
+          "temperature": true
+        },
+        "auto/best-reasoning": {
+          "name": "Auto Best Reasoning — reasoning",
+          "limit": {
+            "context": 1048576,
+            "output": 384000,
+            "input": 1048576
+          },
+          "tools": true,
+          "attachment": false,
+          "reasoning": true,
+          "temperature": true
+        },
+        "auto/best-vision": {
+          "name": "Auto Best Vision — reasoning · img/pdf",
+          "limit": {
+            "context": 1048576,
+            "output": 384000,
+            "input": 1048576
+          },
+          "tools": true,
+          "attachment": true,
+          "reasoning": true,
+          "temperature": true
+        },
+        "auto/coding:reliable": {
+          "name": "Auto Coding Reliable — reasoning · tools",
+          "limit": {
+            "context": 1048576,
+            "output": 384000,
+            "input": 1048576
+          },
+          "tools": true,
+          "attachment": false,
+          "reasoning": true,
+          "temperature": true
+        },
+        "auto/smart": {
+          "name": "Auto Smart — reasoning · tools",
+          "limit": {
+            "context": 1048576,
+            "output": 384000,
+            "input": 1048576
+          },
+          "tools": true,
+          "attachment": false,
+          "reasoning": true,
+          "temperature": true
+        },
+        "aug/glm-5.2": {
+          "name": "GLM 5.2 — reasoning · 1M ctx",
+          "limit": {
+            "context": 1000000,
+            "input": 1000000,
+            "output": 131072
+          },
+          "tools": true,
+          "attachment": false,
+          "reasoning": true,
+          "temperature": true
+        },
+        "aug/gemini-3.1-pro-preview": {
+          "name": "Gemini 3.1 Pro — reasoning · img/pdf · 1M ctx",
+          "limit": {
+            "context": 1000000,
+            "output": 65535,
+            "input": 1000000
+          },
+          "tools": true,
+          "attachment": true,
+          "reasoning": true,
+          "temperature": true
+        },
+        "aug/kimi-k2.7": {
+          "name": "Kimi K2.7 — reasoning · img/pdf",
+          "limit": {
+            "context": 131000,
+            "input": 131000,
+            "output": 262144
+          },
+          "tools": true,
+          "attachment": true,
+          "reasoning": true,
+          "temperature": true
+        },
+        "oc/mimo-v2.5-free": {
+          "name": "MiMo V2.5 Free — reasoning · img/pdf",
+          "limit": {
+            "context": 1048576,
+            "input": 1048576,
+            "output": 65536
+          },
+          "tools": true,
+          "attachment": true,
+          "reasoning": true,
+          "temperature": true
+        },
+        "oc/big-pickle": {
+          "name": "Big Pickle — reasoning · tools",
+          "limit": {
+            "context": 200000,
+            "input": 200000,
+            "output": 32000
+          },
+          "tools": true,
+          "attachment": false,
+          "reasoning": true,
+          "temperature": true
+        }
+      }
+    },
+    "explabs": {
+      "name": "Experiential Labs",
+      "npm": "@ai-sdk/openai-compatible",
+      "options": {
+        "baseURL": "https://api.experientiallabs.ai/v1",
+        "apiKey": "{env:EXPLABS_API_KEY}"
+      },
+      "models": {
+        "grok-4.20": {
+          "name": "Grok 4.20 — 2M ctx",
+          "limit": {
+            "context": 2000000,
+            "input": 2000000,
+            "output": 131072
+          },
+          "tools": true,
+          "attachment": true,
+          "reasoning": true,
+          "temperature": true
+        },
+        "glm-5.3-flash": {
+          "name": "GLM-5.3 Flash",
+          "limit": {
+            "context": 1310720,
+            "input": 1310720,
+            "output": 131072
+          },
+          "tools": true,
+          "attachment": true,
+          "reasoning": true,
+          "temperature": true
+        },
+        "deepseek-v4-flash-0731": {
+          "name": "DeepSeek V4 Flash 0731",
+          "limit": {
+            "context": 1310720,
+            "input": 1310720,
+            "output": 393216
+          },
+          "tools": true,
+          "attachment": false,
+          "reasoning": true,
+          "temperature": true
+        },
+        "gpt-5.6-luna": {
+          "name": "GPT-5.6 Luna",
+          "limit": {
+            "context": 1050000,
+            "input": 1050000,
+            "output": 128000
+          },
+          "tools": true,
+          "attachment": true,
+          "reasoning": true,
+          "temperature": false
+        },
+        "gpt-5.4": {
+          "name": "GPT-5.4",
+          "limit": {
+            "context": 1050000,
+            "input": 1050000,
+            "output": 128000
+          },
+          "tools": true,
+          "attachment": true,
+          "reasoning": true,
+          "temperature": false
+        },
+        "glm-5.3": {
+          "name": "GLM 5.3",
+          "limit": {
+            "context": 1048576,
+            "input": 1048576,
+            "output": 131072
+          },
+          "tools": true,
+          "attachment": false,
+          "reasoning": true,
+          "temperature": true
+        },
+        "deepseek-v4-flash": {
+          "name": "DeepSeek V4 Flash",
+          "limit": {
+            "context": 1048576,
+            "input": 1048576,
+            "output": 384000
+          },
+          "tools": true,
+          "attachment": false,
+          "reasoning": true,
+          "temperature": true
+        },
+        "muse-spark-1.2": {
+          "name": "Muse Spark 1.2",
+          "limit": {
+            "context": 1048576,
+            "input": 1048576,
+            "output": 16384
+          },
+          "tools": true,
+          "attachment": true,
+          "reasoning": true,
+          "temperature": true
+        },
+        "qwen3.8-max": {
+          "name": "Qwen3.8 Max",
+          "limit": {
+            "context": 1000000,
+            "input": 1000000,
+            "output": 131072
+          },
+          "tools": true,
+          "attachment": true,
+          "reasoning": true,
+          "temperature": true
+        },
+        "qwen3.7-plus": {
+          "name": "Qwen3.7 Plus",
+          "limit": {
+            "context": 1000000,
+            "input": 1000000,
+            "output": 131072
+          },
+          "tools": true,
+          "attachment": true,
+          "reasoning": true,
+          "temperature": true
+        },
+        "claude-haiku-4.5": {
+          "name": "Claude Haiku 4.5",
+          "limit": {
+            "context": 200000,
+            "input": 200000,
+            "output": 64000
+          },
+          "tools": true,
+          "attachment": true,
+          "reasoning": true,
+          "temperature": true
+        },
+        "qwen3.8-27b": {
+          "name": "Qwen3.8 27B",
+          "limit": {
+            "context": 1000000,
+            "input": 1000000,
+            "output": 131072
+          },
+          "tools": true,
+          "attachment": true,
+          "reasoning": true,
+          "temperature": true
+        },
+        "gpt-4.1": {
+          "name": "GPT-4.1",
+          "limit": {
+            "context": 1047576,
+            "input": 1047576,
+            "output": 32768
+          },
+          "tools": true,
+          "attachment": false,
+          "reasoning": false,
+          "temperature": true
+        },
+        "gpt-4.1-mini": {
+          "name": "GPT-4.1 Mini",
+          "limit": {
+            "context": 1047576,
+            "input": 1047576,
+            "output": 32768
+          },
+          "tools": true,
+          "attachment": false,
+          "reasoning": false,
+          "temperature": true
+        },
+        "gpt-4.1-nano": {
+          "name": "GPT-4.1 Nano",
+          "limit": {
+            "context": 1047576,
+            "input": 1047576,
+            "output": 32768
+          },
+          "tools": true,
+          "attachment": false,
+          "reasoning": false,
+          "temperature": true
+        },
+        "gpt-5.4-mini": {
+          "name": "GPT-5.4 Mini",
+          "limit": {
+            "context": 400000,
+            "input": 400000,
+            "output": 128000
+          },
+          "tools": true,
+          "attachment": false,
+          "reasoning": true,
+          "temperature": false
+        },
+        "gpt-5-mini": {
+          "name": "GPT-5 Mini",
+          "limit": {
+            "context": 400000,
+            "input": 400000,
+            "output": 128000
+          },
+          "tools": true,
+          "attachment": false,
+          "reasoning": true,
+          "temperature": false
+        },
+        "gpt-5.4-nano": {
+          "name": "GPT-5.4 Nano",
+          "limit": {
+            "context": 400000,
+            "input": 400000,
+            "output": 128000
+          },
+          "tools": true,
+          "attachment": false,
+          "reasoning": true,
+          "temperature": false
+        },
+        "gpt-5-nano": {
+          "name": "GPT-5 Nano",
+          "limit": {
+            "context": 400000,
+            "input": 400000,
+            "output": 128000
+          },
+          "tools": true,
+          "attachment": false,
+          "reasoning": true,
+          "temperature": false
+        },
+        "gpt-4o-mini": {
+          "name": "GPT-4o Mini",
+          "limit": {
+            "context": 128000,
+            "input": 128000,
+            "output": 16384
+          },
+          "tools": true,
+          "attachment": true,
+          "reasoning": false,
+          "temperature": true
+        },
+        "o3": {
+          "name": "o3",
+          "limit": {
+            "context": 200000,
+            "input": 200000,
+            "output": 100000
+          },
+          "tools": true,
+          "attachment": false,
+          "reasoning": true,
+          "temperature": false
+        },
+        "kimi-k2.7-code": {
+          "name": "Kimi K2.7 Code",
+          "limit": {
+            "context": 262144,
+            "input": 262144,
+            "output": 262144
+          },
+          "tools": true,
+          "attachment": true,
+          "reasoning": true,
+          "temperature": true
+        },
+        "kimi-k2.6": {
+          "name": "Kimi K2.6",
+          "limit": {
+            "context": 262144,
+            "input": 262144,
+            "output": 262144
+          },
+          "tools": true,
+          "attachment": true,
+          "reasoning": true,
+          "temperature": true
+        },
+        "kimi-k2.5": {
+          "name": "Kimi K2.5",
+          "limit": {
+            "context": 262144,
+            "input": 262144,
+            "output": 262144
+          },
+          "tools": true,
+          "attachment": true,
+          "reasoning": true,
+          "temperature": true
+        },
+        "grok-4.5": {
+          "name": "Grok 4.5",
+          "limit": {
+            "context": 500000,
+            "input": 500000,
+            "output": 131072
+          },
+          "tools": true,
+          "attachment": true,
+          "reasoning": true,
+          "temperature": true
+        },
+        "grok-build-0.1": {
+          "name": "Grok Build 0.1",
+          "limit": {
+            "context": 256000,
+            "input": 256000,
+            "output": 64000
+          },
+          "tools": true,
+          "attachment": true,
+          "reasoning": true,
+          "temperature": true
+        },
+        "minimax-m3": {
+          "name": "MiniMax M3",
+          "limit": {
+            "context": 512000,
+            "input": 512000,
+            "output": 131072
+          },
+          "tools": true,
+          "attachment": false,
+          "reasoning": true,
+          "temperature": true
+        },
+        "nemotron-3.5-lightning": {
+          "name": "Nemotron 3.5 Lightning",
+          "limit": {
+            "context": 262144,
+            "input": 262144,
+            "output": 131072
+          },
+          "tools": true,
+          "attachment": false,
+          "reasoning": true,
+          "temperature": true
+        },
+        "deepseek-v3.2": {
+          "name": "DeepSeek V3.2",
+          "limit": {
+            "context": 163840,
+            "input": 163840,
+            "output": 32768
+          },
+          "tools": true,
+          "attachment": false,
+          "reasoning": true,
+          "temperature": true
+        },
+        "muse-glimmer-30b": {
+          "name": "Muse Glimmer 30B",
+          "limit": {
+            "context": 131072,
+            "input": 131072,
+            "output": 32768
+          },
+          "tools": true,
+          "attachment": true,
+          "reasoning": false,
+          "temperature": true
+        }
+      }
+    }
+  },
+  "skills": {
+    "paths": [
+      "~/.config/opencode/skills"
+    ]
+  },
+  "plugin": [
+    "@dietrichgebert/ponytail",
+    "./plugin/oxalpha-chat.ts"
+  ]
+}
+

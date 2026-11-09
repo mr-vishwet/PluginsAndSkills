@@ -1,0 +1,3 @@
+# Local-only secrets for `wrangler dev`. Never committed; production values
+# come from `npx wrangler secret put NAME`.
+# API_TOKEN=replace-me

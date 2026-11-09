@@ -1,0 +1,2528 @@
+{
+  "source": {
+    "site": "https://www.cardboard.ai",
+    "extracted": "https://www.cardboard.ai/",
+    "viewportSampled": {
+      "h": 593,
+      "w": 531
+    },
+    "docHeight": 13930,
+    "plansCaptured": "2026-11-01 from the /pricing JSON-LD offers"
+  },
+  "color": {
+    "background": "#1a1a1a",
+    "appShell": "#0a0a0a",
+    "foreground": "#d9d9d9",
+    "primary": "#f4f4f4",
+    "primaryForeground": "#1a1a1a",
+    "muted": "#2a2a2a",
+    "mutedForeground": "#999",
+    "accent": "#404040",
+    "ring": "#a0a0a0",
+    "border": "#0a0a0a",
+    "borderSubtle": "#ffffff0f",
+    "borderStrong": "#ffffff29",
+    "textPrimary": "#f5f5f5",
+    "chromatic": [
+      {
+        "hex": "#2680D9",
+        "uses": 73
+      },
+      {
+        "hex": "#3CDDA7",
+        "uses": 48
+      }
+    ],
+    "surfacePage": "#141414",
+    "surface": "#202020",
+    "surfaceRaised": "#262626",
+    "surfaceElevated": "#2e2e2e",
+    "surfaceSunken": "#161616",
+    "surfaceDialog": "#1f1f1f",
+    "input": "#303030",
+    "secondary": "#303030",
+    "textSecondary": "#c2c2c2",
+    "textDisabled": "#737373",
+    "statusDanger": "#e37878",
+    "statusInfo": "#61a6fa",
+    "statusSuccess": "#4ade80",
+    "statusWarning": "#fbbd23",
+    "radiusUiXl": "12px",
+    "trackVideo": "#2680d9",
+    "trackAudio": "#1c7054",
+    "trackWaveform": "#3cdda7",
+    "trackCaption": "#5d4db3",
+    "trackText": "#4f4096",
+    "trackImage": "#a347d1",
+    "trackCode": "#b5405f",
+    "trackSelection": "#85b2f9",
+    "trackSnap": "#eb4747",
+    "trackFx": "#ffbf00",
+    "trackZoom": "#2258c3",
+    "trackBg": "#1a1a1a",
+    "trackGutter": "#000",
+    "captionGold": "#F3E9A6",
+    "source": "computed styles read off the live /login page, 2026-11-01",
+    "measuredTokens": "cardboard-tokens.json",
+    "authShell": "#08090a",
+    "subGrey": "#8c8c8c",
+    "orGrey": "#7a7a85",
+    "tosGrey": "#5f5f5f",
+    "tosLink": "#9a9a9a",
+    "fieldBg": "#ffffff0a",
+    "plate": "#0000008c",
+    "cardRadius": "16px",
+    "fieldSolid": "#2a2a2a",
+    "_notes": {},
+    "chatBubble": "#141413",
+    "chatComposer": "#30302e",
+    "menuBlue": "#0a90f8",
+    "focusRing": "#57b5ff",
+    "menuInk": "#0a0b10",
+    "menuInkDeep": "#06070a",
+    "menuBlueFaint": "#0a90f80a",
+    "sourceMenu": "phone Menu drawer + auth layout, public chunks 2026-11-02",
+    "menuCtaInk": "#191919",
+    "captionBubble": "#222327",
+    "notFoundGrey": "#a8a8a8",
+    "subscriptionEyebrow": "#FFB900",
+    "dialogShell": "#09090B",
+    "dialogBorder": "#FFFFFF",
+    "primaryInk": "#18181B",
+    "appPhoneBody": "#171717"
+  },
+  "type": {
+    "display": {
+      "family": "Denton",
+      "fallback": "Raveo Variable, sans-serif",
+      "h1": "40px/300",
+      "h2": "32px/300",
+      "standIn": "Playfair Display",
+      "standInReason": "Denton is licensed and Lunacy resolves neither it nor any macOS serif from a .fig; Playfair Display is a free Didone Figma pulls from its own cloud, so the file opens as a serif where it is actually reviewed",
+      "lineHeight": "40px/40.8px (1.02)"
+    },
+    "heading": {
+      "family": "Delight",
+      "h3": "20px/500",
+      "h3Color": "#F0F0F0"
+    },
+    "body": {
+      "family": "Delight",
+      "p": "16px/500",
+      "pColor": "#D9D9D9"
+    },
+    "ui": {
+      "family": "Geist, Inter, sans-serif",
+      "base": "14px/400"
+    },
+    "observedScale": [
+      "14px/400",
+      "15px/400",
+      "10px/400",
+      "40px/300",
+      "15px/500",
+      "11px/400",
+      "11px/500",
+      "12px/500",
+      "14px/500",
+      "32px/300",
+      "16px/500",
+      "13px/500"
+    ]
+  },
+  "shape": {
+    "radiusToken": "8px",
+    "radiusCensus": [
+      {
+        "r": "4px",
+        "uses": 113
+      },
+      {
+        "r": "6px",
+        "uses": 60
+      },
+      {
+        "r": "1.67772e+07px",
+        "uses": 53
+      },
+      {
+        "r": "12px",
+        "uses": 43
+      },
+      {
+        "r": "8px",
+        "uses": 35
+      },
+      {
+        "r": "3px",
+        "uses": 34
+      },
+      {
+        "r": "10px",
+        "uses": 23
+      },
+      {
+        "r": "1px",
+        "uses": 22
+      }
+    ],
+    "pill": "borderRadius >= 1e7 renders as a full pill"
+  },
+  "elevation": {
+    "note": "borders are translucent white over near-black, not opaque grey",
+    "tokens": [
+      "--border-subtle #FFFFFF0F",
+      "--border-strong #FFFFFF29"
+    ]
+  },
+  "flow": [
+    {
+      "path": "/",
+      "title": "Cardboard | AI Video Editor for Your Browser and Mac",
+      "h1": [
+        "M a k e a n y v i d e o y o u c a n t h i n k o f Make any video you can think of",
+        "What are we editing today, Ishan?"
+      ],
+      "sections": [
+        "Made with Cardboard",
+        "Your first video in three steps",
+        "Everything you need to make videos",
+        "Make videos the way you do everything else",
+        "Library",
+        "Recent"
+      ],
+      "cta": [
+        "Auto",
+        "Improve prompt",
+        "Launch Video",
+        "UGC",
+        "Explainer",
+        "Montage",
+        "Product Demo",
+        "Podcast Clip"
+      ]
+    },
+    {
+      "path": "/pricing",
+      "title": "Pricing for Every Stage of Editing | Cardboard",
+      "h1": [
+        "Pricing for every stage of editing"
+      ],
+      "sections": [
+        "Compare plans",
+        "Frequently asked questions"
+      ],
+      "cta": [
+        "Monthly",
+        "Annual Save up to 61 %",
+        "Get started",
+        "Can I cancel anytime?",
+        "Is there a free plan?",
+        "Can I change my plan later?"
+      ]
+    },
+    {
+      "path": "/desktop",
+      "title": "Cardboard for Mac: The AI Video Editor for Your Mac",
+      "h1": [
+        "The AI video editor for your Mac",
+        "What are we editing today, Ishan?"
+      ],
+      "sections": [
+        "Library",
+        "Recent",
+        "Cardboard for Mac comes with Lite, included.",
+        "Faster editing, straight from your Mac.",
+        "Made with Cardboard on the Mac",
+        "Your first edit in three steps"
+      ],
+      "cta": [
+        "Dashboard",
+        "Piece Runner launch",
+        "Makers documentary",
+        "M",
+        "GPT-6 Astra",
+        "Watch with sound 1:05",
+        "Do I need Claude or Codex?",
+        "Is Cardboard on Windows?"
+      ]
+    },
+    {
+      "path": "/mcp",
+      "title": "Cardboard for ChatGPT and Claude",
+      "h1": [
+        "Your video editor, now in C h a t G P T"
+      ],
+      "sections": [
+        "How to connect",
+        "What Cardboard can do in the chat",
+        "Edit from your browser, desktop or phone.",
+        "What users are asking",
+        "Get started with one prompt.",
+        "Frequently asked questions"
+      ],
+      "cta": [
+        "ChatGPT",
+        "Claude",
+        "Launch video",
+        "Trendy edits",
+        "Effects",
+        "Product video",
+        "Talking heads",
+        "Vlogs"
+      ]
+    },
+    {
+      "path": "/recipes",
+      "title": "AI video editing recipes and examples | Cardboard",
+      "h1": [
+        "Recipes"
+      ],
+      "sections": [],
+      "cta": [
+        "Remix",
+        "−",
+        "100 %",
+        "+"
+      ]
+    },
+    {
+      "path": "/changelog",
+      "title": "Changelog | Cardboard",
+      "h1": [
+        "What’s new in Cardboard"
+      ],
+      "sections": [
+        "Edit Videos in ChatGPT and Claude",
+        "Edit by asking",
+        "No setup, no extra plan",
+        "Finish in Cardboard",
+        "YouTube, straight into your edit",
+        "Faster Exports, Shareable Recipes, Photos to Video"
+      ],
+      "cta": [
+        "Edit Videos",
+        "Faster Exports",
+        "Meet Recipes",
+        "Any Footage",
+        "Now on",
+        "Reliable Exports",
+        "Fast Scrubbing",
+        "Canvas Text"
+      ]
+    },
+    {
+      "path": "/hard-problems",
+      "title": "Hard problems in video editing | Cardboard",
+      "h1": [
+        "Hard problems"
+      ],
+      "sections": [
+        "01 High Performance NLE in the Browser",
+        "02 Collaboration",
+        "03 Multimodal Understanding",
+        "04 Better Context",
+        "05 Predicting Next Actions",
+        "06 Style References"
+      ],
+      "cta": []
+    },
+    {
+      "path": "/blog",
+      "title": "Blog | Cardboard",
+      "h1": [
+        "Cuts & Notes"
+      ],
+      "sections": [
+        "Match Cuts Explained: 2026 Guide"
+      ],
+      "cta": []
+    },
+    {
+      "path": "/careers",
+      "title": "We're hiring | Careers at Cardboard",
+      "h1": [
+        "Help build the editor that edits for you"
+      ],
+      "sections": [
+        "Open roles 6",
+        "Think you can make Cardboard better? Show us."
+      ],
+      "cta": []
+    },
+    {
+      "path": "/support",
+      "title": "Support: help with edits, exports and plans | Cardboard",
+      "h1": [
+        "How can we help?"
+      ],
+      "sections": [
+        "Email support",
+        "Other places to look"
+      ],
+      "cta": [
+        "Copy address"
+      ]
+    }
+  ],
+  "plans": [
+    {
+      "name": "Lite",
+      "monthly": "$5 first month, then $8/month",
+      "annual": "$93 first year, then $96/year",
+      "note": "Lite is free in the Cardboard Mac app for Apple silicon."
+    },
+    {
+      "name": "Starter",
+      "monthly": "$9 first month, then $29/month",
+      "annual": "$220 first year, then $240/year"
+    },
+    {
+      "name": "Creator",
+      "monthly": "$30 first month, then $59/month",
+      "annual": "$439 first year, then $468/year"
+    },
+    {
+      "name": "Pro",
+      "monthly": "$89 first month, then $175/month",
+      "annual": "$1,414 first year, then $1,500/year"
+    }
+  ],
+  "pricingFaq": [
+    "Can I cancel anytime?",
+    "Is there a free plan?",
+    "What happens if I run out of credits?",
+    "Can I change my plan later?"
+  ],
+  "pages": {
+    "/": [
+      "Made with Cardboard",
+      "Your first video in three steps",
+      "Everything you need to make videos",
+      "Make videos the way you do everything else",
+      "Library",
+      "Recent",
+      "Your next video, made in Cardboard.Your next product video,made in Cardboard.",
+      "Pricing for every stage of editing",
+      "Frequently asked questions",
+      "Get started with one prompt."
+    ],
+    "/blog": [
+      "Match Cuts Explained: 2026 Guide"
+    ],
+    "/careers": [
+      "Open roles 6",
+      "Think you can make Cardboard better? Show us."
+    ],
+    "/changelog": [
+      "Edit Videos in ChatGPT and Claude",
+      "Edit by asking",
+      "No setup, no extra plan",
+      "Finish in Cardboard",
+      "YouTube, straight into your edit",
+      "Faster Exports, Shareable Recipes, Photos to Video",
+      "Faster, steadier exports",
+      "Share a recipe",
+      "Turn your photos into clips",
+      "A lighter Mac app",
+      "Meet Recipes, Make It Yours",
+      "Meet Recipes",
+      "Browse every recipe",
+      "Remix in a few clicks",
+      "Any Footage, Sharper Cutouts, 3D Graphics",
+      "Bring any footage",
+      "Sharper cutouts",
+      "Graphics in 3D",
+      "A calmer agent chat",
+      "Now on Mac, Bring Your Agent",
+      "An app of its own",
+      "Bring your own Claude or Codex agent",
+      "Local by default",
+      "Reliable Exports, Smoother Graphics"
+    ],
+    "/desktop": [
+      "Library",
+      "Recent",
+      "Cardboard for Mac comes with Lite, included.",
+      "Faster editing, straight from your Mac.",
+      "Made with Cardboard on the Mac",
+      "Your first edit in three steps",
+      "Use your own agents.",
+      "Get started with one prompt.",
+      "Frequently asked questions"
+    ],
+    "/hard-problems": [
+      "01High Performance NLE in the Browser",
+      "02Collaboration",
+      "03Multimodal Understanding",
+      "04Better Context",
+      "05Predicting Next Actions",
+      "06Style References",
+      "07Motion Graphics",
+      "08Memory",
+      "09Verification",
+      "10Version Control",
+      "Want to work on one of these?"
+    ],
+    "/mcp": [
+      "How to connect",
+      "What Cardboard can do in the chat",
+      "Edit from your browser, desktop or phone.",
+      "What users are asking",
+      "Get started with one prompt.",
+      "Frequently asked questions"
+    ],
+    "/pricing": [
+      "Compare plans",
+      "Frequently asked questions"
+    ],
+    "/recipes": [],
+    "/support": [
+      "Email support",
+      "Other places to look"
+    ]
+  },
+  "auth": {
+    "measured": "2026-11-01, Google Chrome 156 over CDP at 390x844, mobile emulation",
+    "shell": "rgb(8, 9, 10)",
+    "docHeight": 923,
+    "fan": [
+      {
+        "x": 133,
+        "y": 138,
+        "w": 168,
+        "h": 299,
+        "z": 95,
+        "r": 16
+      },
+      {
+        "x": 45,
+        "y": 140,
+        "w": 163,
+        "h": 282,
+        "z": 85,
+        "r": 16
+      },
+      {
+        "x": 228,
+        "y": 163,
+        "w": 160,
+        "h": 263,
+        "z": 75,
+        "r": 16
+      },
+      {
+        "x": -44,
+        "y": 161,
+        "w": 157,
+        "h": 242,
+        "z": 65,
+        "r": 16
+      },
+      {
+        "x": 328,
+        "y": 198,
+        "w": 163,
+        "h": 235,
+        "z": 55,
+        "r": 16,
+        "opacity": 0.51
+      }
+    ],
+    "login": [
+      {
+        "el": "A",
+        "txt": "",
+        "box": [
+          0,
+          0,
+          154,
+          60
+        ],
+        "font": [
+          "Geist",
+          "14px",
+          "400"
+        ],
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "5px"
+      },
+      {
+        "el": "SPAN",
+        "txt": "Cardboard",
+        "box": [
+          55,
+          18,
+          79,
+          24
+        ],
+        "font": [
+          "Denton",
+          "19px",
+          "300"
+        ],
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      {
+        "el": "SPAN",
+        "txt": "the perfect story",
+        "box": [
+          152,
+          388,
+          123,
+          29
+        ],
+        "font": [
+          "Delight",
+          "13px",
+          "500"
+        ],
+        "color": "rgb(243, 233, 166)",
+        "bg": "oklab(0 0 0 / 0.55)",
+        "radius": "6px"
+      },
+      {
+        "el": "H1",
+        "txt": "Welcome back",
+        "box": [
+          103,
+          500,
+          184,
+          35
+        ],
+        "font": [
+          "Denton",
+          "32px",
+          "300"
+        ],
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      {
+        "el": "P",
+        "txt": "Sign in to keep editing.",
+        "box": [
+          114,
+          544,
+          162,
+          23
+        ],
+        "font": [
+          "Delight",
+          "16px",
+          "500"
+        ],
+        "color": "rgb(140, 140, 140)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      {
+        "el": "INPUT",
+        "txt": "john@example.com",
+        "box": [
+          40,
+          591,
+          310,
+          40
+        ],
+        "font": [
+          "Geist",
+          "16px",
+          "400"
+        ],
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(255, 255, 255, 0.04)",
+        "radius": "8.75px"
+      },
+      {
+        "el": "BUTTON",
+        "txt": "",
+        "box": [
+          40,
+          642,
+          310,
+          42
+        ],
+        "font": [
+          "Geist",
+          "12.25px",
+          "500"
+        ],
+        "color": "oklab(0.999994 0.0000455677 0.0000200868 / 0.7)",
+        "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.04)",
+        "radius": "7px"
+      },
+      {
+        "el": "SPAN",
+        "txt": "Continue",
+        "box": [
+          169,
+          654,
+          52,
+          18
+        ],
+        "font": [
+          "Geist",
+          "12.25px",
+          "500"
+        ],
+        "color": "oklab(0.999994 0.0000455677 0.0000200868 / 0.7)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      {
+        "el": "P",
+        "txt": "or",
+        "box": [
+          187,
+          705,
+          17,
+          15
+        ],
+        "font": [
+          "Geist",
+          "11px",
+          "400"
+        ],
+        "color": "rgb(122, 122, 133)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      {
+        "el": "BUTTON",
+        "txt": "",
+        "box": [
+          40,
+          741,
+          310,
+          40
+        ],
+        "font": [
+          "Geist",
+          "12.25px",
+          "500"
+        ],
+        "color": "rgb(25, 25, 25)",
+        "bg": "rgb(255, 255, 255)",
+        "radius": "12px"
+      },
+      {
+        "el": "SPAN",
+        "txt": "Continue with Google",
+        "box": [
+          128,
+          750,
+          158,
+          23
+        ],
+        "font": [
+          "Delight",
+          "16px",
+          "500"
+        ],
+        "color": "rgb(10, 10, 10)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      {
+        "el": "P",
+        "txt": "Don’t have an account?",
+        "box": [
+          94,
+          805,
+          202,
+          18
+        ],
+        "font": [
+          "Delight",
+          "14px",
+          "500"
+        ],
+        "color": "rgb(140, 140, 140)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      {
+        "el": "A",
+        "txt": "Sign up",
+        "box": [
+          250,
+          805,
+          46,
+          18
+        ],
+        "font": [
+          "Delight",
+          "14px",
+          "500"
+        ],
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "4px"
+      },
+      {
+        "el": "P",
+        "txt": "By continuing, you agree to the   and  .",
+        "box": [
+          60,
+          847,
+          270,
+          36
+        ],
+        "font": [
+          "Delight",
+          "12px",
+          "500"
+        ],
+        "color": "rgb(95, 95, 95)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      {
+        "el": "A",
+        "txt": "Terms of Service",
+        "box": [
+          234,
+          848,
+          93,
+          15
+        ],
+        "font": [
+          "Delight",
+          "12px",
+          "500"
+        ],
+        "color": "rgb(154, 154, 154)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      {
+        "el": "A",
+        "txt": "Privacy Policy",
+        "box": [
+          168,
+          866,
+          74,
+          15
+        ],
+        "font": [
+          "Delight",
+          "12px",
+          "500"
+        ],
+        "color": "rgb(154, 154, 154)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      }
+    ],
+    "signup": [
+      {
+        "el": "A",
+        "txt": "",
+        "box": [
+          0,
+          0,
+          154,
+          60
+        ],
+        "font": [
+          "Geist",
+          "14px",
+          "400"
+        ],
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "5px"
+      },
+      {
+        "el": "SPAN",
+        "txt": "Cardboard",
+        "box": [
+          55,
+          18,
+          79,
+          24
+        ],
+        "font": [
+          "Denton",
+          "19px",
+          "300"
+        ],
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      {
+        "el": "SPAN",
+        "txt": "the perfect story",
+        "box": [
+          148,
+          389,
+          123,
+          29
+        ],
+        "font": [
+          "Delight",
+          "13px",
+          "500"
+        ],
+        "color": "rgb(243, 233, 166)",
+        "bg": "oklab(0 0 0 / 0.55)",
+        "radius": "6px"
+      },
+      {
+        "el": "H1",
+        "txt": "Turn footage into stories",
+        "box": [
+          41,
+          570,
+          308,
+          35
+        ],
+        "font": [
+          "Denton",
+          "32px",
+          "300"
+        ],
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      {
+        "el": "P",
+        "txt": "You describe it. Cardboard edits it.",
+        "box": [
+          71,
+          615,
+          249,
+          23
+        ],
+        "font": [
+          "Delight",
+          "16px",
+          "500"
+        ],
+        "color": "rgb(140, 140, 140)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      {
+        "el": "BUTTON",
+        "txt": "",
+        "box": [
+          40,
+          662,
+          310,
+          40
+        ],
+        "font": [
+          "Geist",
+          "12.25px",
+          "500"
+        ],
+        "color": "rgb(25, 25, 25)",
+        "bg": "rgb(255, 255, 255)",
+        "radius": "12px"
+      },
+      {
+        "el": "SPAN",
+        "txt": "Continue with Google",
+        "box": [
+          128,
+          671,
+          158,
+          23
+        ],
+        "font": [
+          "Delight",
+          "16px",
+          "500"
+        ],
+        "color": "rgb(10, 10, 10)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      {
+        "el": "P",
+        "txt": "Already have an account?",
+        "box": [
+          90,
+          726,
+          210,
+          18
+        ],
+        "font": [
+          "Delight",
+          "14px",
+          "500"
+        ],
+        "color": "rgb(140, 140, 140)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      {
+        "el": "A",
+        "txt": "Sign in",
+        "box": [
+          259,
+          726,
+          41,
+          18
+        ],
+        "font": [
+          "Delight",
+          "14px",
+          "500"
+        ],
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "4px"
+      },
+      {
+        "el": "P",
+        "txt": "By continuing, you agree to the   and  .",
+        "box": [
+          60,
+          768,
+          270,
+          36
+        ],
+        "font": [
+          "Delight",
+          "12px",
+          "500"
+        ],
+        "color": "rgb(95, 95, 95)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      {
+        "el": "A",
+        "txt": "Terms of Service",
+        "box": [
+          234,
+          769,
+          93,
+          15
+        ],
+        "font": [
+          "Delight",
+          "12px",
+          "500"
+        ],
+        "color": "rgb(154, 154, 154)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      },
+      {
+        "el": "A",
+        "txt": "Privacy Policy",
+        "box": [
+          168,
+          787,
+          74,
+          15
+        ],
+        "font": [
+          "Delight",
+          "12px",
+          "500"
+        ],
+        "color": "rgb(154, 154, 154)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "radius": "0px"
+      }
+    ],
+    "heroPrompts": [
+      "Make a launch video",
+      "Generate background music",
+      "Add animated captions"
+    ],
+    "captionChip": "the perfect story",
+    "passwordStep": {
+      "label": "Password",
+      "placeholder": "Enter your password",
+      "toggle": "cl-formFieldInputShowPasswordButton"
+    },
+    "unknownEmail": {
+      "url": "/login/create",
+      "title": "Create your account",
+      "subtitle": "Welcome! Please fill in the details to get started.",
+      "actions": [
+        "Continue with Google",
+        "Already have an account? Sign in"
+      ]
+    }
+  },
+  "routes": {
+    "source": "the route manifest inside the site's own Next.js chunk 05zg5tvy98105.js, read 2026-11-01",
+    "all": [
+      "/",
+      "/app/assets",
+      "/app/credits/purchase/return",
+      "/app/editor/:id",
+      "/app/home",
+      "/app/onboarding",
+      "/app/payment-return",
+      "/app/plan-upgrade/return",
+      "/app/projects",
+      "/app/recovery/:id",
+      "/app/subscribe",
+      "/app/welcome",
+      "/auth/agents",
+      "/auth/agents/claim",
+      "/auth/connectors",
+      "/auth/device",
+      "/auth/magic",
+      "/blog",
+      "/careers",
+      "/changelog",
+      "/desktop",
+      "/desktop/download",
+      "/dev",
+      "/dev/agent",
+      "/dev/renderer-benchmarks",
+      "/dev/repro",
+      "/dev/scenarios",
+      "/dev/system",
+      "/hard-problems",
+      "/home",
+      "/login",
+      "/login/:login*?",
+      "/login/create",
+      "/mcp",
+      "/offers/jun26",
+      "/offers/vwIXa7oNj9404GaM",
+      "/ph",
+      "/pricing",
+      "/privacy",
+      "/recipes",
+      "/recipes/:slug",
+      "/recipes/guides",
+      "/recipes/guides/:slug",
+      "/share/:shareId",
+      "/signup",
+      "/signup/:signup*?",
+      "/sso-callback",
+      "/status",
+      "/support",
+      "/terms"
+    ],
+    "app": [
+      "/app/assets",
+      "/app/credits/purchase/return",
+      "/app/home",
+      "/app/onboarding",
+      "/app/payment-return",
+      "/app/plan-upgrade/return",
+      "/app/projects",
+      "/app/subscribe",
+      "/app/welcome"
+    ],
+    "auth": [
+      "/auth/agents",
+      "/auth/agents/claim",
+      "/auth/connectors",
+      "/auth/device",
+      "/auth/magic"
+    ],
+    "public": [
+      "/auth/device",
+      "/auth/magic",
+      "/recipes/guides"
+    ],
+    "requiresSession": [
+      "/app/assets",
+      "/app/credits/purchase/return",
+      "/app/home",
+      "/app/onboarding",
+      "/app/payment-return",
+      "/app/plan-upgrade/return",
+      "/app/projects",
+      "/app/subscribe",
+      "/app/welcome",
+      "/auth/agents",
+      "/auth/agents/claim",
+      "/auth/connectors"
+    ],
+    "entry": {
+      "sign_in_lands_on": "/app/home",
+      "sign_up_lands_on": "/app/onboarding"
+    },
+    "editor": "/app/editor/:id",
+    "share": "/share/:shareId",
+    "project": "/app/projects",
+    "assets": "/app/assets",
+    "plans": "/app/subscribe",
+    "parameterised": "seven route patterns grepped from the same bundle",
+    "probed": {
+      "note": "these answer 200 but are absent from the preload manifest, so they were verified by request",
+      "routes": [
+        "/login",
+        "/signup",
+        "/mcp",
+        "/login/create"
+      ]
+    }
+  },
+  "appVocabulary": {
+    "source": "Cardboard.app 1.4.1 Contents/Resources/app.asar, the renderer bundle, read 2026-11-01",
+    "tokens": "the same :root block the live site computes, confirmed independently",
+    "editorPanels": [
+      "Library",
+      "Voice",
+      "Text",
+      "Titles",
+      "Captions",
+      "Transitions",
+      "Effects",
+      "Layout"
+    ],
+    "editorActions": [
+      "Add to project",
+      "Attach as reference",
+      "Ask your agent",
+      "Edit by Chatting",
+      "Reframe Everywhere",
+      "Clone your voice",
+      "Switch model",
+      "New Chat",
+      "Copy message",
+      "Copy reply",
+      "See options"
+    ],
+    "jobStates": {
+      "running": "Cardboard is at work",
+      "failed": "The preview hit a snag",
+      "retry": "Retry",
+      "untitled": "Untitled Project",
+      "missing": "Project not found"
+    },
+    "formats": [
+      "Landscape",
+      "Tall",
+      "Square",
+      "Classic"
+    ],
+    "exportControls": [
+      "Frame",
+      "Quality",
+      "Audio"
+    ],
+    "presets": [
+      "Explainer",
+      "Product demo",
+      "Launch video",
+      "Vlog",
+      "Montage",
+      "Podcast clips",
+      "Something else",
+      "All sources"
+    ],
+    "models": [
+      "ChatGPT",
+      "Claude",
+      "Claude Code",
+      "Codex",
+      "Gemini",
+      "Perplexity",
+      "Opus"
+    ],
+    "transitions": [
+      "Fade",
+      "Cross Zoom",
+      "Film Burn",
+      "Light Leak",
+      "Radial Wipe",
+      "Hero",
+      "Push Left",
+      "Push Right",
+      "Push Up",
+      "Push Down",
+      "Slide Left",
+      "Slide Right",
+      "Slide Up",
+      "Slide Down"
+    ],
+    "looks": [
+      "Cinematic",
+      "Vintage",
+      "Technicolor",
+      "Newsreel",
+      "Faded Film",
+      "High Contrast",
+      "Warm",
+      "Cool",
+      "Black & White",
+      "Collotype",
+      "Platinum",
+      "Cyanotype",
+      "Amber",
+      "Paper Cutout"
+    ],
+    "palette": [
+      "White",
+      "Soft white",
+      "Warm yellow",
+      "Rose",
+      "Violet",
+      "Sky",
+      "Mint",
+      "Slate",
+      "Gray",
+      "Ink",
+      "Black"
+    ],
+    "blendModes": [
+      "Normal",
+      "Multiply",
+      "Screen",
+      "Overlay",
+      "Darken",
+      "Lighten",
+      "Color Dodge",
+      "Color Burn"
+    ],
+    "billing": [
+      "Choose a plan",
+      "Compare plans",
+      "Monthly",
+      "Annual",
+      "Upgrade to Pro",
+      "Top up",
+      "Keep my plan",
+      "Manage",
+      "Payment received",
+      "Usage topped up",
+      "Your plan will renew",
+      "See plans",
+      "Continue"
+    ],
+    "shareTargets": [
+      "YouTube",
+      "Instagram",
+      "TikTok",
+      "LinkedIn",
+      "Reddit",
+      "WhatsApp",
+      "Discord",
+      "Telegram",
+      "Newsletter",
+      "Product Hunt",
+      "Other",
+      "Friend"
+    ],
+    "onboardingRoles": [
+      "Founder",
+      "Marketer",
+      "Creator",
+      "Product",
+      "Engineer",
+      "Designer",
+      "Student"
+    ],
+    "updater": [
+      "Checking for updates"
+    ],
+    "doNotPublish": "the bundle also carries two personal names and internal dev screens; neither belongs in any deliverable",
+    "optionLists": {
+      "videoTypes": [
+        "Talking-head",
+        "Explainer",
+        "Product demo",
+        "Launch video",
+        "Montage",
+        "Podcast clips",
+        "Ad / Promo",
+        "Something else"
+      ],
+      "roles": [
+        "Founder",
+        "Marketer",
+        "Creator",
+        "Product",
+        "Engineer",
+        "Designer",
+        "Student"
+      ],
+      "socialMedia": [
+        "LinkedIn",
+        "Instagram",
+        "Twitter/X",
+        "Reddit",
+        "TikTok",
+        "YouTube"
+      ],
+      "community": [
+        "WhatsApp",
+        "Discord",
+        "Telegram"
+      ],
+      "aiTools": [
+        "Gemini",
+        "ChatGPT",
+        "Claude",
+        "Perplexity"
+      ],
+      "other": [
+        "Friend",
+        "Google",
+        "Newsletter",
+        "Product Hunt"
+      ],
+      "note": "four grouped option lists found together in the renderer; the video types are the create presets, the rest belong to a picker whose heading the bundle does not name, so no board claims them yet"
+    }
+  },
+  "appStrings": {
+    "file": "cardboard-app-strings.json",
+    "counts": {
+      "export": 139,
+      "preview": 28,
+      "project": 146,
+      "billing": 75,
+      "library": 33,
+      "captions": 33,
+      "voices": 82,
+      "transitions": 69
+    },
+    "use": "every label on an app board must come from here or from the live pages"
+  },
+  "recipesGrid": {
+    "source": "Chrome at 390x844 after pressing the page's own Grid control, 2026-11-02",
+    "columns": [
+      14,
+      204
+    ],
+    "cardWidth": 172,
+    "cardRadius": 8,
+    "mediaHeights": {
+      "16:9": 97,
+      "9:16": 306,
+      "4:3": 129
+    },
+    "name": {
+      "size": "12px",
+      "weight": 500,
+      "offsetBelowMedia": 6
+    },
+    "category": {
+      "size": "11px",
+      "weight": 500,
+      "offsetBelowMedia": 26
+    },
+    "firstCardTop": 347,
+    "count": 86,
+    "switch": {
+      "x": 131,
+      "y": 778,
+      "w": 128,
+      "h": 38,
+      "segments": [
+        "Canvas",
+        "Grid"
+      ]
+    },
+    "sample": [
+      [
+        "App Launch Teaser",
+        "Launch video",
+        "16:9"
+      ],
+      [
+        "Clock Vlog",
+        "Vlog",
+        "9:16"
+      ],
+      [
+        "Bubble Text UGC",
+        "UGC",
+        "9:16"
+      ],
+      [
+        "Event Aftermovie",
+        "Aftermovie",
+        "16:9"
+      ],
+      [
+        "Travel Diary",
+        "Travel montage",
+        "16:9"
+      ]
+    ],
+    "note": "the canvas and the grid are two states of the same route; the grid is a two-up list with the recipe's own category under its name, the canvas is a pannable field with a Remix action per card"
+  },
+  "deadEnds": {
+    "phoneMenu": "the hamburger's links are in the DOM at 16px but nothing paints when clicked headlessly, so no board claims a menu"
+  },
+  "appDashboard": {
+    "source": "public Next.js chunk /_next/static/immutable/chunks/2hh5btbgge8oa.js, fetched 2026-11-02; the company's own mock of the signed-in dashboard, laid out at 1280px",
+    "sidebar": {
+      "items": [
+        "Dashboard",
+        "Projects"
+      ],
+      "active": "Dashboard",
+      "icons": {
+        "Dashboard": "SquaresFour",
+        "Projects": "FolderOpen",
+        "Report an issue": "Bug",
+        "Settings": "Gear"
+      },
+      "bottom": [
+        "Report an issue",
+        "Settings",
+        "user chip"
+      ],
+      "navClass": "flex flex-col gap-[2px] px-[8px]",
+      "bottomClass": "mt-auto flex flex-col gap-[8px] px-[8px] pb-[11.25px]",
+      "chip": {
+        "avatar": "size-[20px] rounded-full bg-white/[0.12] text-[10px] font-semibold text-white/90",
+        "name": "truncate text-white/90"
+      }
+    },
+    "hero": {
+      "section": "px-[30px] pt-[128px] pb-[104px] flex flex-col items-center justify-center",
+      "h1": {
+        "class": "font-display text-[26px] leading-[32px] font-light tracking-[-0.01em] text-neutral-100 mb-[24px]",
+        "text": "What are we editing today, {name}?"
+      },
+      "column": "w-full max-w-[680px]"
+    },
+    "prompt": {
+      "field": "rounded-[10px] px-[8px] pt-[6px] pb-[8px] ring-1 ring-white/[0.06] ring-inset shadow-[inset_0_1px_rgba(255,255,255,0.04)]",
+      "fieldBg": "hsl(0 0% 16.4706%)",
+      "textarea": "min-h-[72px] max-h-[150px] px-[10px] py-[8px] text-[14px] leading-[25px]",
+      "placeholder": "Ask Cardboard to cut, caption or make something…",
+      "toolbar": "flex items-center justify-between gap-[7.5px] pt-[2px]",
+      "left": [
+        "Paperclip 15px",
+        "MagicWand 15px"
+      ],
+      "send": "size-[28px] rounded-full, ArrowUp 15px bold, colour hsl(0 0% 10.1961%)",
+      "dropzone": "mx-[144px] h-[36px] rounded-b-[10px] px-[12px] text-[12px] leading-[16px] bg hsl(0 0% 16.4706% / 0.6)",
+      "dropzoneText": "Drag and drop or click here to add your media files"
+    },
+    "recent": {
+      "section": "px-[30px] pb-[96px]",
+      "h2": "pt-[12px] pb-[14px] text-[15px] leading-[20px] font-semibold tracking-[-0.01em] text-white/90",
+      "text": "Recent",
+      "grid": "grid gap-[22.5px] [grid-template-columns:repeat(auto-fill,minmax(200px,1fr))]",
+      "newProjectTile": {
+        "media": "aspect-video rounded-[7.5px] bg-white/[0.04] ring-1 ring-white/[0.06] ring-inset, Plus 18.75px",
+        "title": "truncate text-[13px] font-medium tracking-tight text-white/90",
+        "titleText": "New project",
+        "sub": "truncate text-[11px] text-white/45",
+        "subText": "Start empty"
+      }
+    },
+    "windowChrome": {
+      "menuBar": [
+        "File",
+        "Edit",
+        "Playback",
+        "View",
+        "Window",
+        "Help"
+      ],
+      "width": 1280,
+      "unit": "container query units (cqw) so the mock scales with its frame"
+    },
+    "consequence": "the product's top-level navigation is a left sidebar reading Dashboard / Projects, not a bottom tab bar; a phone-width board that shows one is a design read, and the set says so",
+    "wideForm": {
+      "nav": "a top bar: ml-[24px] flex items-center gap-[2px], a Dashboard button (SquaresFour size-[16px], weight fill when active, text-white/95 active and text-white/55 idle, hover:bg-white/[0.05]), then a 16px divider (w-px bg-white/[0.10]), then one tab per open project",
+      "note": "so the product has two chrome forms: the narrow rail (Dashboard, Projects, Report an issue, Settings, user chip) and the wide top bar with a tab per project. Neither is a bottom tab bar."
+    },
+    "rail": {
+      "container": "flex w-[240px] shrink-0 flex-col border-r border-white/[0.06]",
+      "header": "flex h-[60px] shrink-0 items-center px-[12px], logo h-[15px] w-auto ml-[8px]",
+      "search": {
+        "class": "flex h-[36px] items-center gap-[8px] rounded-[10px] bg-white/[0.06] px-[12px]",
+        "icon": "MagnifyingGlass size-[16px] text-white/45",
+        "label": "Search",
+        "labelClass": "text-[13px] text-white/40"
+      },
+      "nav": "mt-[12px] flex flex-col gap-[2px] px-[8px]",
+      "items": [
+        [
+          "Dashboard",
+          "SquaresFour",
+          "active"
+        ],
+        [
+          "Projects",
+          "FolderOpen"
+        ]
+      ],
+      "bottom": "mt-auto flex flex-col gap-[8px] px-[8px] pb-[11.25px]",
+      "bottomItems": [
+        [
+          "Report an issue",
+          "Bug"
+        ],
+        [
+          "Settings",
+          "Gear"
+        ]
+      ],
+      "chip": {
+        "avatar": "size-[20px] rounded-full bg-white/[0.12] text-[10px] font-semibold text-white/90",
+        "name": "truncate text-white/90",
+        "note": "the mock names a person; never ship that"
+      }
+    },
+    "otherStrings": {
+      "Effort": "the prompt toolbar's own control, between the attach icons and send",
+      "Search project media…": "the editor Library panel's search placeholder",
+      "What should we do next?": "the chat composer's placeholder",
+      "Library": "the editor panel name for project media",
+      "clock": "the mock's status line reads Mon Sep 28 9:41 AM"
+    }
+  },
+  "previewStrings": {
+    "source": "public chunk /_next/static/immutable/chunks/26gt615xv4w62.js, fetched 2026-11-02; the product-preview component set the marketing pages render, so these are the app's own labels and states",
+    "count": 61,
+    "labels": [
+      "Make videos the way you do everything else",
+      "Learn more",
+      "Voice clone",
+      "2 / 4",
+      "esc",
+      "Generating…",
+      "Match the pacing and color of this video",
+      "Each one from a single line, editable on your timeline.",
+      "Searching the web",
+      "Best match",
+      "Welder at work in a steel shop",
+      "Archival footage · 0:08",
+      "Transcript",
+      "Retake",
+      "Lightcone · Boris Cherny",
+      "50:10 · 5 speakers",
+      "Finding moments…",
+      "3 moments found",
+      "0:00",
+      "50:10",
+      "Make this vertical for Reels and add captions",
+      "9:16",
+      "Reframed to 9:16 around the speaker and added captions.",
+      "Chat",
+      "Using Cardboard integration…",
+      "Used Cardboard integration",
+      "Here’s a first cut, one scene for each of the six things you shipped:",
+      "Product updates",
+      "Video · 1:12 · Open in Cardboard",
+      "Write a message…",
+      "Opus 5.5",
+      "Share",
+      "Share link",
+      "Copy link",
+      "Link copied",
+      "Conference keynote",
+      "Rendering…",
+      "1 hour of footage",
+      "Render time",
+      "Everything you need to make videos",
+      "Pricing for every stage of editing",
+      "Every plan includes the full editing suite.",
+      "Couldn’t reach Google. Try again, or use email instead.",
+      "preparing",
+      "Preparing preview…",
+      "Play preview",
+      "Terms",
+      "Privacy Policy",
+      "hidden",
+      "or make it in",
+      "Unlock more features",
+      "Aspect ratio",
+      "Undo",
+      "soundtrack.mp3",
+      "4s → 2s",
+      "Caption",
+      "Make the intro faster and add captions",
+      "Done. Intro trimmed and captions added.",
+      "Your first video in three steps",
+      "Your next video, made in Cardboard.",
+      "No editing experience needed."
+    ]
+  },
+  "uiScale": {
+    "source": "/_next/static/immutable/chunks/2yev3agxl8ov6.css + 32dra3l9dlb04.css, fetched 2026-11-02",
+    "text": {
+      "ui-2xs": [
+        10,
+        14
+      ],
+      "ui-xs": [
+        11,
+        16
+      ],
+      "ui-sm": [
+        12,
+        16
+      ],
+      "ui-md": [
+        13,
+        18
+      ],
+      "ui-lg": [
+        14,
+        20
+      ],
+      "ui-xl": [
+        15,
+        22
+      ],
+      "ui-2xl": [
+        16,
+        24
+      ]
+    },
+    "radius": {
+      "ui-xs": 4,
+      "ui-sm": 6,
+      "ui-md": 8,
+      "ui-lg": 10,
+      "ui-xl": 12
+    },
+    "note": "the app's UI text never exceeds 16px; anything larger is the display face. Buttons are h-[40px] rounded-ui-xl px-[16px] text-ui-xl font-semibold, solid bg-white/90 text-black/90 and quiet bg-white/[0.06] text-white/90, with a 16px bold ArrowRight on the solid variant."
+  },
+  "appEditorBar": {
+    "source": "same chunk; the editor's own top bar",
+    "order": [
+      "aspect chip (text, e.g. 16:9) + CaretDown size-[10px] weight bold text-white/40",
+      "Bug size-[16px] text-white/45",
+      "Export: gap-[8px] bg-white px-[10px] font-semibold text-black, with a hint span text-[10px] font-medium text-black/45 reading the shortcut (shown as Cmd-E)",
+      "SidebarSimple weight fill size-[16px] -scale-x-100 in a w-[28px] justify-center slot"
+    ],
+    "note": "no back chevron: the toggle is how you leave the editor"
+  },
+  "appChat": {
+    "source": "public chunk 26gt615xv4w62.js, the chat mock the product-preview set renders",
+    "header": "h-[30px] px-[6px] text-[11.5px] with the project title and an 11px ChevronDown",
+    "thread": "w-[330px] flex-col gap-[10px] pt-[6px] pl-[6px] text-[12px] leading-[1.5]",
+    "userBubble": "max-w-[90%] self-end rounded-[12px] px-[11px] py-[7px] bg #141413",
+    "userText": "Use Cardboard and create a product updates video for everything we shipped last month",
+    "status": "text-[11px], cross-fades 'Using Cardboard integration…' into 'Used Cardboard integration'",
+    "reply": "text-[13.5px] leading-[1.45]",
+    "replyText": "Here’s a first cut, one scene for each of the six things you shipped:",
+    "resultCard": "flex items-center gap-[10px] rounded-[10px] p-[6px] pr-[12px] with an inset ring; thumb 68x38 rounded-[6px]; title text-[12px]; sub text-[10.5px]",
+    "resultText": [
+      "Product updates",
+      "Video · 1:12 · Open in Cardboard"
+    ],
+    "composer": "mt-[24px] flex-col gap-[14px] rounded-[14px] px-[12px] pt-[10px] pb-[8px] bg #30302e with an inset ring; placeholder 'Write a message…' text-[11.5px]; a 13px Plus at the left and the model name at 10.5px on the right",
+    "model": "Opus 5.5",
+    "railSections": [
+      "Home",
+      "Code",
+      "Chat"
+    ],
+    "chatRow": "flex items-center gap-[7px] rounded-[6px] px-[5px] py-[4px], active row bg rgba(255,255,255,0.07), 1.5-stroke MessageCircle"
+  },
+  "macWindow": {
+    "source": "the desktop-spotlight component in chunk 2hh5btbgge8oa.js",
+    "window": "aspect-[1280/616], rounded-[12px]",
+    "menuBar": "h-24px, -apple-system/SF Pro Text, fontSize 13, letterSpacing -0.005em, textShadow 0 0 6px rgba(0,0,0,.25), white",
+    "left": [
+      "apple logo 13x16",
+      "Cardboard (font-bold)",
+      "File",
+      "Edit",
+      "Playback",
+      "View",
+      "Window",
+      "Help"
+    ],
+    "right": [
+      "battery-100percent 24x12",
+      "wifi 18x13",
+      "magnifyingglass 16x15",
+      "switch-2 16x15",
+      "Mon Sep 28 9:41 AM"
+    ],
+    "gap": "20px between menu items, 12px in the right cluster",
+    "notPhoneChrome": "the max-sm: utilities in this chunk belong to the Mac dock illustration (magnify-gap, group-data-[magnified]/dock), not to a phone navigation. The app's phone chrome is still unobserved."
+  },
+  "projectCard": {
+    "source": "chunks 0s-isuor-xou1.js / 2aghpv88emoc6.js, the ProjectCard component",
+    "variants": {
+      "card": "the grid tile the dashboard and projects list use",
+      "row": "grid grid-cols-[minmax(0,1fr)_160px_120px_120px_36px] items-center gap-4, desktop only"
+    },
+    "fields": [
+      "thumbnailUrl",
+      "duration",
+      "uid",
+      "recoveryRestoreAvailable",
+      "recoveryReviewRequired"
+    ],
+    "actionLabel": {
+      "default": "Open",
+      "recoveryRestoreAvailable": "Restore",
+      "recoveryReviewRequired": "Review"
+    },
+    "recoveredLabel": "Recovered",
+    "overflow": "size-6 rounded-md text-white/45, opacity 0 until hover, with Rename, Duplicate, Delete and Reveal",
+    "reveal": {
+      "mac": "Reveal in Finder",
+      "other": "Show in Folder"
+    },
+    "panelTokens": [
+      "PANEL_SURFACE",
+      "PANEL_PAD",
+      "PANEL_MENU_ITEM",
+      "PANEL_SEPARATOR"
+    ]
+  },
+  "liveApp": {
+    "source": "the signed-in app at cardboard.ai/app/home, read from the user's own window 2026-11-02",
+    "rail": {
+      "top": [
+        "Home",
+        "Projects",
+        "Asset library"
+      ],
+      "logo_row": "Cardboard lockup left, a sidebar toggle right",
+      "mid": "Connectors card: a quoted ask, a result thumb titled 'Cardboard · Launch (30s)', and the line 'Now in ChatGPT and Claude'",
+      "bottom": [
+        "Upgrade",
+        "Download Mac app",
+        "Need any help?",
+        "account chip with initials"
+      ]
+    },
+    "home": {
+      "greet": "What video are we making today, {first name}?",
+      "sub": "Describe your video or bring in your media to get started.",
+      "field": {
+        "placeholder": "Describe your video, or drop footage…",
+        "upload": "a dashed tile overlapping the field's top-left corner with an up-arrow",
+        "left": "sparkle button",
+        "right": [
+          "Auto with a layout icon and a caret",
+          "round send with a status dot"
+        ]
+      },
+      "presets": [
+        "Montage",
+        "Vlog",
+        "Talking-head",
+        "Explainer",
+        "Product demo",
+        "Ad / Promo",
+        "Launch video"
+      ],
+      "switch": [
+        "Recipes",
+        "Your projects"
+      ],
+      "heading": "Remix trending videos",
+      "cardBadge": "Desktop, on recipes that need the Mac app"
+    },
+    "corrections": {
+      "greeting": "was 'What are we editing today?'",
+      "placeholder": "was 'Ask Cardboard to cut, caption or make something…'",
+      "firstNavLabel": "was Dashboard, the app says Home",
+      "thirdNavLabel": "was Settings in the bar; the rail's third destination is Asset library",
+      "presets": "the row is Montage/Vlog/Talking-head/Explainer/Product demo/Ad-Promo/Launch video, not the six in the bundle list"
+    },
+    "notShipped": "the greeting's name and the account chip's name and initials are the user's own and never go in a deliverable",
+    "accessibilityTree": {
+      "source": "the signed-in tab's own accessibility tree, read through Chrome DevTools device mode 2026-11-02",
+      "h1": "What do you want to make first, {name}?",
+      "otherGreeting": "What video are we making today, {name}? (also present in the tree; the heading is the one the page promotes)",
+      "controls": [
+        {
+          "name": "Add media files",
+          "role": "button"
+        },
+        {
+          "name": "Describe your video, or drop footage…",
+          "role": "textarea placeholder"
+        },
+        {
+          "name": "Improve prompt",
+          "role": "button",
+          "state": "disabled until text is typed"
+        },
+        {
+          "name": "Canvas size: Auto",
+          "role": "popup"
+        },
+        {
+          "name": "Send prompt",
+          "role": "popup",
+          "state": "disabled until text is typed"
+        }
+      ],
+      "presets": [
+        "Montage",
+        "Vlog",
+        "Talking-head",
+        "Explainer",
+        "Product demo",
+        "Ad / Promo",
+        "Launch video"
+      ],
+      "desktopLine": "Cardboard edits on desktop. We will send you a link.",
+      "regions": [
+        "Notifications alt+T"
+      ]
+    },
+    "homeTree": {
+      "source": "the signed-in /app/home accessibility tree, 2026-11-02",
+      "h1": "What video are we making today, {name}?",
+      "h2": "Describe your video or bring in your media to get started.",
+      "altH1": "What do you want to make first, {name}? (seen in an earlier capture of the same route)",
+      "field": [
+        "Add media files (button)",
+        "Describe your video, or drop footage… (textarea)",
+        "Improve prompt (disabled)",
+        "Canvas size: Auto (popup)",
+        "Send prompt (disabled)"
+      ],
+      "presets": [
+        "Montage",
+        "Vlog",
+        "Talking-head",
+        "Explainer",
+        "Product demo",
+        "Ad / Promo",
+        "Launch video"
+      ],
+      "section": {
+        "h2": "Recipes and projects",
+        "tabs": [
+          "Recipes",
+          "Your projects"
+        ],
+        "trending": {
+          "h3": "Remix trending videos",
+          "controls": [
+            "Scroll back",
+            "Scroll on",
+            "Upload a reference"
+          ],
+          "badge": "desktop exclusive on recipes that need the Mac app"
+        },
+        "picker": {
+          "h3": "Pick a recipe to remix",
+          "search": "Search recipes",
+          "length": [
+            "All",
+            "Short-form",
+            "Long-form"
+          ],
+          "pickers": [
+            "Size: All sizes",
+            "Type: All types"
+          ],
+          "categories": [
+            "Launch video",
+            "UGC",
+            "Clipping",
+            "Vlog",
+            "Effect",
+            "Viral trends",
+            "Travel montage",
+            "Product showcase",
+            "Aftermovie",
+            "Explainer",
+            "Talking-head"
+          ]
+        }
+      },
+      "rail": {
+        "width": 272,
+        "collapsible": true,
+        "nav": {
+          "Home": "/app/home",
+          "Projects": "/app/projects",
+          "Asset library": "/app/assets"
+        },
+        "cards": [
+          "Connectors (collapse/open)",
+          "Use Cardboard in ChatGPT and Claude"
+        ],
+        "links": {
+          "Upgrade": "/pricing",
+          "Download Mac app": "/desktop/download"
+        },
+        "menus": [
+          "Need any help?",
+          "Open user menu"
+        ]
+      }
+    }
+  },
+  "phoneChrome": {
+    "source": "the app's own components, read out of public Next.js chunks fetched 2026-11-02 without credentials: 1oc48ftg1jc-r.js (auth layout), module 323567 (PhoneHeader), module 131955 (Spinner), 18-yycugmvpuv.js (marketing header + phone Menu drawer)",
+    "shell": "flex min-h-svh w-full flex-col overflow-x-hidden bg-[#08090a] pt-[env(safe-area-inset-top)] text-white antialiased md:flex-row md:p-[16px] lg:pl-0",
+    "reading": "the phone is a single stacked column with the notch padding on top and no page padding; the rail only exists from md up, as a row. There is no bottom navigation anywhere in the shipped code.",
+    "phoneHeader": {
+      "class": "relative z-10 flex w-full shrink-0 items-center justify-between px-[20px] py-[18px]",
+      "mark": "h-[18px] w-[26.64px] shrink-0 text-white",
+      "wordmark": "font-display text-[19px] leading-[23.5px] font-light whitespace-nowrap text-white",
+      "wordmarkGap": "gap-[8px]",
+      "avatar": "UserMenu at size-[32px], only when showAvatar and useSmallScreen(); a size-[32px] spacer otherwise",
+      "height": "18 + 23.5 + 18 = 59.5, so a 60px bar under the status bar"
+    },
+    "spinner": "Phosphor CircleNotch, size-4 animate-spin, overridden to h-8 w-8 in the auth loader",
+    "authPhone": {
+      "column": "flex flex-col items-center p-[40px]",
+      "card": "mx-auto min-h-28 w-full max-w-[400px]",
+      "glow": "absolute inset-0 opacity-[0.12] radial-gradient(100% 100% at 50% 0%, rgb(10 10 17) 23%, rgb(10 144 248) 100%)",
+      "focusRing": "ring-2 ring-[#57b5ff] ring-offset-2 ring-offset-black",
+      "loadingState": "absolute inset-x-0 top-0 h-28 flex items-center justify-center"
+    },
+    "railComponent": "w-[224px] content column at ml-[24px] mr-[28px] with an h-[16px] w-px divider, items px-[10px] text-[13px] text-white/55 hover:text-white/85 and text-white/95 when active, icon size-[16px] mr-[6px]; 224+24+24 reconciles with the 272px rail the signed-in tree reported",
+    "motion": {
+      "easeOutExpo": [
+        0.16,
+        1,
+        0.3,
+        1
+      ],
+      "easeResize": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "resizeDurationS": 0.3,
+      "menuScrim": {
+        "duration": 0.3,
+        "ease": [
+          0.16,
+          1,
+          0.3,
+          1
+        ],
+        "exitDuration": 0.22
+      },
+      "menuItem": {
+        "enter": "opacity 0, y 18, 0.5s",
+        "exit": "opacity 0, y 10, 0.15s"
+      },
+      "stagger": {
+        "delayChildren": 0.12,
+        "staggerChildren": 0.06,
+        "exitStagger": 0.03,
+        "exitDirection": -1
+      }
+    }
+  },
+  "siteMenuPhone": {
+    "source": "18-yycugmvpuv.js, the marketing site's own phone navigation, md:hidden",
+    "trigger": "flex size-9 items-center justify-center rounded-md text-white hover:bg-white/[0.08] active:bg-white/[0.12]",
+    "dialog": "role=dialog aria-modal aria-label=Menu, fixed inset-0 z-[60]",
+    "scrim": "absolute inset-0 backdrop-blur-2xl, radial-gradient(115% 55% at 50% 18%, rgba(10,144,248,0.20) 0%, rgba(10,144,248,0.04) 42%, transparent 64%) over linear-gradient(180deg, rgba(10,11,16,0.92) 0%, rgba(6,7,10,0.97) 100%)",
+    "column": "relative flex h-full flex-col px-6 pt-5 pb-[max(2rem,env(safe-area-inset-bottom))]",
+    "brandRow": "mark h-[20px] w-[30px] + wordmark font-display text-[19px] leading-none font-light tracking-[0.01em]; close button size-9 rounded-[10px] with Phosphor X size-5",
+    "link": "flex items-center justify-between border-b border-white/[0.08] py-[18px]; label font-display text-[30px] leading-none font-light tracking-[-0.01em] text-white/90; ArrowUpRight size-[22px] text-white/25",
+    "links": [
+      {
+        "href": "/",
+        "label": "Home"
+      },
+      {
+        "href": "/recipes",
+        "label": "Recipes"
+      },
+      {
+        "href": "/desktop",
+        "label": "Mac"
+      },
+      {
+        "href": "/mcp",
+        "label": "Plugins"
+      },
+      {
+        "href": "/pricing",
+        "label": "Pricing"
+      },
+      {
+        "href": "/changelog",
+        "label": "Changelog"
+      },
+      {
+        "href": "/careers",
+        "label": "Careers"
+      }
+    ],
+    "footer": "social tiles size-10 rounded-[11px] bg-white/[0.06] text-white/70, icon size-[18px]; Contact mailto:humans@cardboard.ai text-[13px] text-white/45; border-t pt-6, gap-6 between groups",
+    "cta": "group flex w-full items-center justify-center gap-2 rounded-[12px] bg-white py-3.5 text-[15px] font-medium tracking-tight text-[#191919] hover:bg-neutral-200 active:bg-neutral-300",
+    "header": {
+      "phone": "mx-auto flex h-16 w-full max-w-[1440px] items-center justify-between gap-6 px-4",
+      "desktop": "md:h-[72px] md:grid md:grid-cols-[1fr_auto_1fr] md:px-[60px]",
+      "sticky": "bg-[#08090a]/75 with [mask-image:linear-gradient(to_bottom,black_40%,transparent)] backdrop-blur-xl backdrop-saturate-150"
+    },
+    "primaryButton": "h-9 rounded-[10px] px-3.5 py-0 text-[14px] md:hidden",
+    "escape": "Escape closes it and body scroll is locked while open"
+  },
+  "editorMock": {
+    "source": "26gt615xv4w62.js, the product-preview component set, fetched 2026-11-02 without credentials",
+    "caption": "origin-bottom-right self-end rounded-[12px] rounded-br-[4px] bg-[#222327] px-[14px] py-[10px] text-[14px] leading-normal font-medium whitespace-nowrap text-white/[0.92]",
+    "clip": "absolute top-[34px] h-[48px] overflow-hidden rounded-[6px]",
+    "ruler": "top-[14px] h-[8px] bg-white/30 over top-[18px] h-[4px] bg-white/[0.14]",
+    "badge": "origin-left rounded-[3px] bg-white px-[4.962px] py-[2.481px] text-[9.21px] font-medium text-[#08090a] (the mock is drawn at 0.5116 scale, so 18px and 10px at full size)",
+    "assetPill": "rounded-[5px] bg-white/[0.08] px-[8px] py-[3px] text-[10px] font-medium text-white/80",
+    "strings": [
+      "soundtrack.mp3",
+      "4s -> 2s",
+      "Caption",
+      "Make the intro faster and add captions",
+      "Done. Intro trimmed and captions added."
+    ],
+    "panel": "rounded-[16px] border-[0.6px] border-white/[0.06] bg-[#212121]",
+    "row": "flex h-[32px] w-full items-center gap-[10px] rounded-[10px] px-[10px] text-[14px] leading-[1.2] font-medium",
+    "chip": "flex cursor-pointer items-center gap-[6px] rounded-[6px] text-[14px] leading-[1.2] font-medium text-white",
+    "stage": "relative aspect-[697/507] min-w-0 flex-1 overflow-hidden rounded-[12px] bg-[#111]",
+    "frame": "h-full rounded-[14px] shadow-[0_20px_60px_rgba(0,0,0,0.5)] ring-1 ring-white/15"
+  },
+  "downloadPage": {
+    "source": "https://www.cardboard.ai/desktop/download measured in headless Chrome at 390x844, 2026-11-02; public, no session",
+    "title": "Download Cardboard for Mac | Cardboard",
+    "bodyBg": "rgb(0, 0, 0)",
+    "bodyFont": "Geist, ui-sans-serif, sans-serif, system-ui",
+    "docHeight": 3513,
+    "gutter": 14,
+    "contentWidth": 362,
+    "header": "logo link 95x16 at y=20; Get started 105x32 r10 14px/500 on white at x=232; menu button 32x32 r5 at x=345",
+    "h1": {
+      "y": 184,
+      "w": 362,
+      "h": 83,
+      "fs": "40px",
+      "fw": 300,
+      "text": "Cardboard for Mac is downloading."
+    },
+    "lead": {
+      "y": 281,
+      "w": 362,
+      "h": 84,
+      "fs": "20px",
+      "fw": 500,
+      "text": "When it finishes, open the file and follow the steps below. Didn't start? Download again.",
+      "link": {
+        "text": "Download again",
+        "y": 338,
+        "x": 117,
+        "w": 152,
+        "h": 25,
+        "fs": "20px",
+        "fw": 500,
+        "rad": "3px"
+      }
+    },
+    "h2": {
+      "y": 545,
+      "w": 362,
+      "h": 38,
+      "fs": "40px",
+      "fw": 300,
+      "text": "Get started"
+    },
+    "sub": {
+      "y": 593,
+      "w": 362,
+      "h": 56,
+      "fs": "20px",
+      "fw": 500,
+      "text": "Three steps from download to your first edit."
+    },
+    "stepHeading": {
+      "fs": "20px",
+      "fw": 500,
+      "h": 28
+    },
+    "stepBody": {
+      "fs": "16px",
+      "fw": 500,
+      "h": 72
+    },
+    "steps": [
+      "Install Cardboard - Once the download finishes, open the DMG and drag Cardboard into Applications. Then open it from there.",
+      "Sign in to Cardboard - Your projects always stay on this Mac.",
+      "What are we editing today? - Cut a 30-second teaser from interview.mov with captions"
+    ],
+    "handoffMock": [
+      "Sign in or create an account",
+      "Waiting for your browser...",
+      "Signed in",
+      "cardboard.ai",
+      "Welcome back"
+    ],
+    "appMock": [
+      "Opus 5.5",
+      "On it. Cutting a 30-second teaser with captions.",
+      "Describe your video"
+    ],
+    "footer": "Product: Pricing, Recipes, Plugins, Changelog, Support, Status. Legal: Privacy, Terms of Service. Company: Blog, Careers, Hard problems, Y Combinator, Contact. (c) 2026 Cardboard Inc. All rights reserved. Made within SF"
+  },
+  "notFound": {
+    "source": "/share/does-not-exist and /c/does-not-exist, headless Chrome at 390x844, 2026-11-02; both answer 404 with a styled page, docHeight 844",
+    "bodyBg": "rgb(26, 26, 26)",
+    "bodyFont": "Geist",
+    "h1": {
+      "x": 102,
+      "y": 379,
+      "w": 185,
+      "h": 32,
+      "fs": "26.25px",
+      "fw": 700,
+      "ls": "-0.65625px",
+      "lh": "31.5px",
+      "col": "white",
+      "text": "Page not found"
+    },
+    "p": {
+      "x": 21,
+      "y": 425,
+      "w": 348,
+      "h": 42,
+      "fs": "14px",
+      "fw": 400,
+      "lh": "21px",
+      "col": "lab(66.128 -0.0000298023 0.0000119209)",
+      "text": "The page you're looking for doesn't exist or has been moved."
+    },
+    "door": {
+      "x": 118,
+      "y": 502,
+      "w": 155,
+      "h": 40,
+      "fs": "15px",
+      "fw": 600,
+      "lh": "22px",
+      "col": "black on white",
+      "rad": "8px",
+      "text": "Back to home"
+    }
+  },
+  "macLiteOffer": {
+    "source": "/desktop, scrolled capture in headless Chrome at 390x844, 2026-11-02; public, docHeight 9723, 162 elements",
+    "heading": {
+      "y": 927,
+      "x": 16,
+      "w": 358,
+      "h": 70,
+      "fs": "32px",
+      "text": "Cardboard for Mac comes with Lite, included."
+    },
+    "lead": {
+      "y": 1013,
+      "x": 16,
+      "w": 358,
+      "h": 45,
+      "fs": "16px",
+      "text": "Download the Mac app and the Lite plan is yours."
+    },
+    "card": {
+      "x": 41,
+      "w": 308
+    },
+    "plan": {
+      "h3": {
+        "y": 1131,
+        "fs": "20px",
+        "text": "Lite"
+      },
+      "note": {
+        "y": 1164,
+        "fs": "15px",
+        "text": "Complimentary with Cardboard for Mac"
+      },
+      "badge": {
+        "y": 1211,
+        "fs": "56px",
+        "h": 74,
+        "text": "Included"
+      },
+      "value": {
+        "y": 1248,
+        "x": 241,
+        "fs": "16px",
+        "text": ". $10 /mo value"
+      },
+      "cta": {
+        "y": 1313,
+        "w": 308,
+        "h": 39,
+        "rad": "12px",
+        "fs": "16px",
+        "text": "Free download for Mac"
+      },
+      "reassure": {
+        "y": 1362,
+        "x": 146,
+        "w": 97,
+        "fs": "13px",
+        "text": "No card needed."
+      }
+    },
+    "features": [
+      "The Director",
+      "Bring your own Claude or Codex",
+      "3 watermarked exports at 1080p",
+      "Captions",
+      "Audio cleanup",
+      "Reframe",
+      "Reference edits"
+    ],
+    "featureRow": {
+      "fs": "15px",
+      "h": 19,
+      "pitch": 33,
+      "w": 308
+    },
+    "more": {
+      "y": 1678,
+      "text": "Need more?",
+      "link": {
+        "y": 1677,
+        "x": 122,
+        "w": 78,
+        "h": 18,
+        "fs": "14px",
+        "rad": "3px",
+        "text": "See all plans"
+      }
+    },
+    "firstEdit": {
+      "heading": {
+        "y": 4216,
+        "fs": "32px",
+        "text": "Your first edit in three steps"
+      },
+      "steps": [
+        {
+          "h3": "1. Download Cardboard.",
+          "p": "Sign in and Lite is included. No card needed."
+        },
+        {
+          "h3": "2. Drop in your footage.",
+          "p": "Phone clips, camera files, or hours of footage"
+        },
+        {
+          "h3": "3. Tell Cardboard what you want.",
+          "p": "The Director plans the edit, builds the cut, then you keep control."
+        }
+      ],
+      "mockStrings": [
+        "Import or drag your video",
+        "Video, audio or images",
+        "Auto",
+        "demo.mp4",
+        "b-roll.mov",
+        "interview.mov",
+        "Ask Cardboard to cut, caption or make something...",
+        "Opus",
+        "First cut ready",
+        "launch-video.mp4 . 0:30",
+        "Applications",
+        "Cardboard"
+      ],
+      "stepHeading": {
+        "fs": "20px",
+        "h": 28,
+        "x": 28,
+        "w": 334
+      },
+      "stepBody": {
+        "fs": "16px",
+        "x": 28,
+        "w": 334
+      }
+    },
+    "agents": {
+      "h2": {
+        "y": 6090,
+        "fs": "32px",
+        "text": "Use your own agents."
+      },
+      "lines": [
+        "Already have a paid Claude or ChatGPT plan? Connect it and Cardboard works through it.",
+        "Your agent does the thinking. Cardboard gives it the video.",
+        "No API keys. No terminal. Nothing extra to install."
+      ]
+    }
+  },
+  "mcpDeeper": {
+    "source": "/mcp, scrolled capture in headless Chrome at 390x844, 2026-11-02; public, docHeight 9231, 184 elements",
+    "examples": {
+      "h2": {
+        "y": 3061,
+        "w": 358,
+        "h": 67,
+        "fs": "32px/300",
+        "text": "What Cardboard can do in the chat"
+      },
+      "lead": {
+        "y": 3145,
+        "w": 275,
+        "h": 22,
+        "fs": "16px/500",
+        "text": "Pick an example and try it in your chat."
+      },
+      "chips": [
+        {
+          "text": "Launch video",
+          "w": 123,
+          "h": 24
+        },
+        {
+          "text": "Trendy edits",
+          "w": 118,
+          "h": 24
+        },
+        {
+          "text": "Effects",
+          "w": 82,
+          "h": 24
+        },
+        {
+          "text": "Product video",
+          "w": 129,
+          "h": 24
+        },
+        {
+          "text": "Talking heads",
+          "w": 125,
+          "h": 24
+        },
+        {
+          "text": "Vlogs",
+          "w": 68,
+          "h": 24
+        }
+      ],
+      "chipType": "16px/500",
+      "showMore": {
+        "y": 3869,
+        "w": 125,
+        "h": 38,
+        "rad": "12px",
+        "fs": "15px/500"
+      }
+    },
+    "surfaces": {
+      "h2": {
+        "y": 4156,
+        "fs": "32px/300",
+        "text": "Edit from your browser, desktop or phone."
+      },
+      "lead": {
+        "y": 4238,
+        "fs": "16px/500",
+        "text": "Cardboard works wherever ChatGPT and Claude do, so you can start an edit from any of them."
+      },
+      "labels": [
+        "Desktop",
+        "Tablet",
+        "Mobile"
+      ],
+      "labelType": "20px/500",
+      "labelH": 30
+    },
+    "asking": {
+      "h2": {
+        "y": 5721,
+        "w": 297,
+        "h": 33,
+        "fs": "32px/300",
+        "text": "What users are asking"
+      },
+      "handle": "@Cardboard",
+      "handleType": "15.6px/400",
+      "prompts": [
+        "plan a strategy and make a launch video",
+        "cut my trip clips into a 30-second Reel",
+        "make a grid montage from my New York trip"
+      ],
+      "askAnything": "Ask anything",
+      "openIn": "Open in Cardboard",
+      "replyTo": "Reply to Claude…"
+    }
+  },
+  "subscriptionGate": {
+    "route": "/app/projects -> /app/home?subscription=required",
+    "container": "fixed top-1/2 left-1/2 z-50 grid w-full max-w-[calc(100%-2rem)] gap-4 overflow-hidden rounded-2xl border border-white/[0.08] bg-zinc-950/95 p-6",
+    "phoneWidth": 358,
+    "radius": 16,
+    "padding": 24,
+    "gap": 16,
+    "border": "#FFFFFF at 0.08",
+    "fill": "#09090B at 0.95",
+    "eyebrow": {
+      "text": "SUBSCRIPTION REQUIRED",
+      "class": "text-[10px] font-bold tracking-wider uppercase",
+      "computedColorLab": "80.1641 16.6016 99.2089",
+      "hex": "#FFB900"
+    },
+    "title": {
+      "text": "Choose a plan to open your projects",
+      "class": "text-xl font-semibold tracking-tight text-white",
+      "size": 20,
+      "lineHeight": 28
+    },
+    "body": {
+      "text": "An active subscription is required to open and edit projects. Choose a plan to get started.",
+      "class": "text-sm leading-relaxed text-neutral-400",
+      "size": 14,
+      "lineHeight": 23
+    },
+    "primary": {
+      "text": "Explore plans",
+      "width": "fills the padded box",
+      "height": 38,
+      "fill": "#FFFFFF",
+      "textColor": "near-black",
+      "radius": 12,
+      "size": 14,
+      "weight": 600
+    },
+    "links": {
+      "texts": [
+        "Contact support",
+        "Sign out"
+      ],
+      "class": "12px/400, separated by a middot in px-1.5",
+      "computedColorLab": "47.8878 1.65477 -5.77283"
+    },
+    "close": {
+      "label": "Close (sr-only)",
+      "icon": 16,
+      "color": "#D9D9D9"
+    },
+    "measuredOn": "2026-11-03, signed-in session, 986 CSS px viewport at 0.9375 zoom (all values above are the class values, not the zoomed pixels)",
+    "resolved": "all four colours read back through the page: an offscreen canvas painted the computed lab() value and the pixel was sampled -- eyebrow #FFB900, dialog #09090B at 0.95, border #FFFFFF at 0.08, primary #FFFFFF on #18181B"
+  },
+  "phoneApp": {
+    "measuredOn": "2026-11-03, signed-in session, classes read off the running app",
+    "body": "relative min-h-dvh lg:min-h-0 max-lg:h-dvh max-lg:overflow-y-auto bg-[#171717] flex flex-col",
+    "header": "relative z-10 flex w-full shrink-0 items-center justify-between px-[20px] py-[18px] lg:hidden",
+    "headerContent": [
+      "Cardboard wordmark",
+      "Open user menu"
+    ],
+    "noTabBar": "the nav rail is 'absolute inset-y-0 left-0 z-30 hidden ... lg:block'; nothing replaces it below lg. At phone width the app has a header and no destination bar.",
+    "desktopTell": "font-landing flex items-center justify-center gap-[8px] px-[20px] pb-[28px] text-[13px] font-medium text-[#8c8c8c] lg:hidden -- 'Cardboard edits on desktop. We will send you a link.'",
+    "greeting": {
+      "class": "font-display text-[32px] leading-[1.4] font-light text-white/80 max-lg:text-[30px] max-lg:leading-[1.08] max-lg:mx-auto max-lg:max-w-[275px]",
+      "phoneSize": 30,
+      "phoneWeight": 300,
+      "colour": "white at 0.8",
+      "personalised": true
+    },
+    "subtitleDesktopOnly": "text-ui-lg font-light text-white/60 max-lg:hidden",
+    "phoneSubtitleSpan": "lg:hidden -- a different sentence at phone width",
+    "composer": "mx-auto w-full max-w-[640px] max-lg:pt-[16px]",
+    "chipsPhone": "flex max-w-[340px] flex-wrap justify-center gap-[8px] lg:hidden",
+    "chipsDesktop": "transition-opacity duration-200 max-lg:hidden"
+  }
+}

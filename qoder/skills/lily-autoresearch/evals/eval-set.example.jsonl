@@ -1,0 +1,5 @@
+{"id": "auto001", "question": "Which python web framework do I default to", "gold_note": "/Users/YOU/Documents/ObsidianVault/decisions/fastapi-choice.md", "kind": "title", "verified": false, "source": "auto"}
+{"id": "auto002", "question": "why dependency injection mattered more than speed", "gold_note": "/Users/YOU/Documents/ObsidianVault/decisions/fastapi-choice.md", "kind": "cloze", "verified": false, "source": "auto"}
+{"id": "auto003", "question": "Debugging by talking out loud", "gold_note": "/Users/YOU/Documents/ObsidianVault/habits/debugging-outloud.md", "kind": "heading", "verified": false, "source": "auto"}
+{"id": "auto004", "question": "saala kahi nahi chal raha which note was that", "gold_note": "/Users/YOU/Documents/ObsidianVault/habits/debugging-outloud.md", "kind": "cloze", "verified": true, "source": "human"}
+{"id": "auto005", "question": "how many parameters actually fit in 8GB unified memory", "gold_note": "/Users/YOU/Documents/ObsidianVault/decisions/ollama-local.md", "kind": "cloze", "verified": false, "source": "auto"}

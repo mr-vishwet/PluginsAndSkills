@@ -1,0 +1,519 @@
+{
+ "source": "https://www.cardboard.ai",
+ "captured": "2026-11-01",
+ "method": "same-origin fetch of every route from inside the page, parsed from the shipped HTML, plus the rendered /pricing DOM for the plan offers. Structure and copy are viewport independent; the shipped HTML is the same markup the phone layout renders.",
+ "nav": [
+  "Recipes",
+  "Mac",
+  "Plugins > ChatGPT / Claude",
+  "Pricing",
+  "Changelog"
+ ],
+ "pages": {
+  "/": {
+   "title": "Cardboard | AI Video Editor for Your Browser and Mac",
+   "description": "An agentic AI video editor in your browser and on your Mac. Describe your edit and Cardboard cuts, captions, reframes, and composes it.",
+   "h1": [
+    "Make any video you can think ofMake any video you can think of",
+    "What are we editing today, Ishan?"
+   ],
+   "sections": [
+    "Made with Cardboard",
+    "Your first video in three steps",
+    "Everything you need to make videos",
+    "Make videos the way you do everything else",
+    "Library",
+    "Recent",
+    "Your next video, made in Cardboard.Your next product video,made in Cardboard.",
+    "Pricing for every stage of editing",
+    "Frequently asked questions",
+    "Get started with one prompt."
+   ],
+   "subsections": [
+    "Describe it",
+    "Direct it",
+    "Share it",
+    "Build the story",
+    "Read this aloud",
+    "Shape the edit",
+    "Work and publish your way",
+    "Lite",
+    "Starter",
+    "Creator",
+    "Pro",
+    "Which devices does Cardboard work on?",
+    "What's the difference between local and cloud processing?",
+    "Can I use my own AI agent?",
+    "Is my footage private?",
+    "How do I share or export my video?",
+    "Product",
+    "Legal",
+    "Company"
+   ],
+   "actions": [
+    "Auto",
+    "Improve prompt",
+    "Launch Video",
+    "UGC",
+    "Explainer",
+    "Montage",
+    "Product Demo",
+    "Podcast Clip",
+    "ChatGPT",
+    "Claude",
+    "Create motion graphics from a prompt.",
+    "Clone your voice and narrate in it.",
+    "Use reference links to videos you like.",
+    "Share work with a link.",
+    "Dashboard",
+    "Piece Runner launch",
+    "Makers documentary",
+    "M",
+    "GPT-6 Astra",
+    "Product Showcases",
+    "Viral Trends",
+    "Launch Videos",
+    "UGC Ads",
+    "Explainers",
+    "Vlogs",
+    "Podcast Clips",
+    "Monthly",
+    "AnnualSave up to 61%",
+    "Get started",
+    "Which devices does Cardboard work on?",
+    "Can I use my own AI agent?",
+    "Is my footage private?",
+    "How do I share or export my video?"
+   ],
+   "imageCount": 30
+  },
+  "/blog": {
+   "title": "Blog | Cardboard",
+   "description": "How we think about editing, the craft behind agentic video, and what we learn building Cardboard. Written by the team.",
+   "h1": [
+    "Cuts & Notes"
+   ],
+   "sections": [
+    "Match Cuts Explained: 2026 Guide"
+   ],
+   "subsections": [
+    "Understanding B-Roll: Types and Examples",
+    "Captions 101: Why Every Video Needs Them",
+    "Opus Clip vs Cardboard Compared",
+    "Easy Video Ideas for Small Business Social (October 2026)",
+    "How to Write a Video Script That Hooks Viewers (Oct 2026)",
+    "Make Your First Video Without Learning a Timeline",
+    "Add Video Text Fast: October 2026 Guide",
+    "Make a Lyric Video with AI in October 2026",
+    "Turning ChatGPT Prompts Into Finished Videos October 2026",
+    "AI Reel Maker: Generate Reels in Minutes (October 2026)",
+    "Build a Demo Video That Converts Using AI (2026)",
+    "Create an Explainer Video with AI Tools (October 2026)",
+    "How to Create UGC Videos for Your Brand (Oct 2026)",
+    "Outsourcing vs AI Video Editing for Growth Teams (2026)",
+    "AI YouTube Shorts Generator Guide for Creators, Oct 2026",
+    "How to Build AI Video Ads Fast (October 2026)",
+    "Runway AI Alternatives: Best Picks for Editors in 2026",
+    "How to Make a Promo Video for Your Business",
+    "How to Make Training Videos Without a Production Team",
+    "TikTok Business Account: Setup and Content Strategy",
+    "Best Social Media Video Editors Ranked - September 2026",
+    "What Are AI Video Editing Tools? (September 2026)",
+    "6 Best AI Video Editors in September 2026",
+    "Best Descript Alternatives for Video Editors in 2026",
+    "Product",
+    "Legal",
+    "Company"
+   ],
+   "actions": [],
+   "imageCount": 26
+  },
+  "/careers": {
+   "title": "We're hiring | Careers at Cardboard",
+   "description": "We're a small, cracked team building the future of video editing. Open roles in design, engineering, content, and growth.",
+   "h1": [
+    "Help build the editor that edits for you"
+   ],
+   "sections": [
+    "Open roles 6",
+    "Think you can make Cardboard better? Show us."
+   ],
+   "subsections": [
+    "Product",
+    "Legal",
+    "Company"
+   ],
+   "actions": [],
+   "imageCount": 17
+  },
+  "/changelog": {
+   "title": "Changelog | Cardboard",
+   "description": "The latest features, improvements, and fixes in the Cardboard AI video editor.",
+   "h1": [
+    "What\u2019s new in Cardboard"
+   ],
+   "sections": [
+    "Edit Videos in ChatGPT and Claude",
+    "Edit by asking",
+    "No setup, no extra plan",
+    "Finish in Cardboard",
+    "YouTube, straight into your edit",
+    "Faster Exports, Shareable Recipes, Photos to Video",
+    "Faster, steadier exports",
+    "Share a recipe",
+    "Turn your photos into clips",
+    "A lighter Mac app",
+    "Meet Recipes, Make It Yours",
+    "Meet Recipes",
+    "Browse every recipe",
+    "Remix in a few clicks",
+    "Any Footage, Sharper Cutouts, 3D Graphics",
+    "Bring any footage",
+    "Sharper cutouts",
+    "Graphics in 3D",
+    "A calmer agent chat",
+    "Now on Mac, Bring Your Agent",
+    "An app of its own",
+    "Bring your own Claude or Codex agent",
+    "Local by default",
+    "Reliable Exports, Smoother Graphics"
+   ],
+   "subsections": [
+    "Product",
+    "Legal",
+    "Company"
+   ],
+   "actions": [
+    "Edit Videos",
+    "Faster Exports",
+    "Meet Recipes",
+    "Any Footage",
+    "Now on",
+    "Reliable Exports",
+    "Fast Scrubbing",
+    "Canvas Text",
+    "Captions Behind",
+    "Fewer Surprises",
+    "Footage First",
+    "New Sidebar",
+    "Exact Color",
+    "References",
+    "Agent eyes",
+    "Keyframes",
+    "Share Links",
+    "Real Footage",
+    "Trending Fonts",
+    "Reframe Every",
+    "New Look",
+    "Big Speedups",
+    "Faster AI",
+    "Speaker Reframes",
+    "Smarter Search",
+    "Smoother Reframes",
+    "Subscription Offers",
+    "Speaker Grid",
+    "DaVinci Exports",
+    "Cloud Processing",
+    "Perfect Audio",
+    "Edge Export",
+    "GIF Exports"
+   ],
+   "imageCount": 30
+  },
+  "/desktop": {
+   "title": "Cardboard for Mac: The AI Video Editor for Your Mac",
+   "description": "Drop in your footage, say what you want, and Cardboard edits it. Free to download, with the Lite plan included and your own Claude or Codex built in.",
+   "h1": [
+    "The AI video editor for your Mac",
+    "What are we editing today, Ishan?"
+   ],
+   "sections": [
+    "Library",
+    "Recent",
+    "Cardboard for Mac comes with Lite, included.",
+    "Faster editing, straight from your Mac.",
+    "Made with Cardboard on the Mac",
+    "Your first edit in three steps",
+    "Use your own agents.",
+    "Get started with one prompt.",
+    "Frequently asked questions"
+   ],
+   "subsections": [
+    "Lite",
+    "Bring your own agent.",
+    "Footage stays on your Mac.",
+    "Faster edits. Fewer credits.",
+    "Built for bigger footage.",
+    "1. Download Cardboard.",
+    "2. Drop in your footage.",
+    "3. Tell Cardboard what you want.",
+    "Connect in three steps",
+    "Is there a free AI video editor for Mac?",
+    "Does Cardboard work on Intel Macs?",
+    "Can I edit videos with Claude or Codex?",
+    "Do I need Claude or Codex?",
+    "Is Cardboard on Windows?",
+    "How is Cardboard different from Descript or CapCut?",
+    "Is it better than iMovie?",
+    "Can I export to Final Cut or Premiere?",
+    "Do my web projects show up on the Mac?",
+    "Where does my footage go?",
+    "Product",
+    "Legal",
+    "Company"
+   ],
+   "actions": [
+    "Dashboard",
+    "Piece Runner launch",
+    "Makers documentary",
+    "M",
+    "GPT-6 Astra",
+    "Watch with sound1:05",
+    "Does Cardboard work on Intel Macs?",
+    "Can I edit videos with Claude or Codex?",
+    "Do I need Claude or Codex?",
+    "Is Cardboard on Windows?",
+    "Is it better than iMovie?",
+    "Can I export to Final Cut or Premiere?",
+    "Do my web projects show up on the Mac?",
+    "Where does my footage go?"
+   ],
+   "imageCount": 30
+  },
+  "/hard-problems": {
+   "title": "Hard problems in video editing | Cardboard",
+   "description": "Ten problems we have to solve to build the video editor that should exist, from a fast browser NLE and real-time collaboration to memory and version control.",
+   "h1": [
+    "Hard problems"
+   ],
+   "sections": [
+    "01High Performance NLE in the Browser",
+    "02Collaboration",
+    "03Multimodal Understanding",
+    "04Better Context",
+    "05Predicting Next Actions",
+    "06Style References",
+    "07Motion Graphics",
+    "08Memory",
+    "09Verification",
+    "10Version Control",
+    "Want to work on one of these?"
+   ],
+   "subsections": [
+    "Product",
+    "Legal",
+    "Company"
+   ],
+   "actions": [
+    "High Performance NLE in the Browser",
+    "Collaboration",
+    "Multimodal Understanding",
+    "Better Context",
+    "Predicting Next Actions",
+    "Style References",
+    "Motion Graphics",
+    "Memory",
+    "Verification",
+    "Version Control"
+   ],
+   "imageCount": 1
+  },
+  "/mcp": {
+   "title": "Cardboard for ChatGPT and Claude",
+   "description": "Edit video in ChatGPT or Claude. Attach your clips, say what you want, and Cardboard edits it.",
+   "h1": [
+    "Your video editor,now inChatGPT"
+   ],
+   "sections": [
+    "How to connect",
+    "What Cardboard can do in the chat",
+    "Edit from your browser, desktop or phone.",
+    "What users are asking",
+    "Get started with one prompt.",
+    "Frequently asked questions"
+   ],
+   "subsections": [
+    "Find Cardboard in Plugins",
+    "Install and connect",
+    "Mention it in any chat",
+    "What does the Cardboard plugin do?",
+    "Do I need a Cardboard account?",
+    "Which plan pays for what?",
+    "How do I get my footage in?",
+    "How big can my clips be?",
+    "How do I get the finished video?",
+    "Does it work on my phone?",
+    "How do I disconnect Cardboard?",
+    "Product",
+    "Legal",
+    "Company"
+   ],
+   "actions": [
+    "ChatGPT",
+    "Claude",
+    "Launch video",
+    "Trendy edits",
+    "Effects",
+    "Product video",
+    "Talking heads",
+    "Vlogs",
+    "Show more",
+    "What does the Cardboard plugin do?",
+    "Do I need a Cardboard account?",
+    "Which plan pays for what?",
+    "How do I get my footage in?",
+    "How big can my clips be?",
+    "How do I get the finished video?",
+    "Does it work on my phone?",
+    "How do I disconnect Cardboard?"
+   ],
+   "imageCount": 30
+  },
+  "/pricing": {
+   "title": "Pricing for Every Stage of Editing | Cardboard",
+   "description": "Cardboard pricing plans for every stage of editing. From Lite on the Mac app to Pro, find the plan that fits your AI video editing workflow.",
+   "h1": [
+    "Pricing for every stage of editing"
+   ],
+   "sections": [
+    "Compare plans",
+    "Frequently asked questions"
+   ],
+   "subsections": [
+    "Lite",
+    "Starter",
+    "Creator",
+    "Pro",
+    "Can I cancel anytime?",
+    "Is there a free plan?",
+    "What are usage credits and generative credits?",
+    "What happens if I run out of credits?",
+    "Can I change my plan later?",
+    "What payment methods do you accept?",
+    "What kind of videos can Cardboard create?",
+    "What happens to my projects if I cancel?",
+    "Do you offer discounts for teams or high-volume usage?",
+    "Product",
+    "Legal",
+    "Company"
+   ],
+   "actions": [
+    "Monthly",
+    "AnnualSave up to 61%",
+    "Get started",
+    "Can I cancel anytime?",
+    "Is there a free plan?",
+    "What happens if I run out of credits?",
+    "Can I change my plan later?",
+    "What payment methods do you accept?"
+   ],
+   "imageCount": 10
+  },
+  "/recipes": {
+   "title": "AI video editing recipes and examples | Cardboard",
+   "description": "Make talking head videos, podcast clips, UGC ads, travel vlogs and product demos with AI editing recipes. Preview an edit, add your footage and make it yours.",
+   "h1": [
+    "Recipes"
+   ],
+   "sections": [],
+   "subsections": [],
+   "actions": [
+    "Remix",
+    "\u2212",
+    "100%",
+    "+"
+   ],
+   "imageCount": 13
+  },
+  "/support": {
+   "title": "Support: help with edits, exports and plans | Cardboard",
+   "description": "Stuck on an edit, an export or your plan? Email humans@cardboard.ai and someone on the Cardboard team will get back to you.",
+   "h1": [
+    "How can we help?"
+   ],
+   "sections": [
+    "Email support",
+    "Other places to look"
+   ],
+   "subsections": [
+    "To get an answer faster, include",
+    "Product",
+    "Legal",
+    "Company"
+   ],
+   "actions": [
+    "Copy address"
+   ],
+   "imageCount": 1
+  }
+ },
+ "plans": [
+  {
+   "name": "Lite",
+   "monthly": "$5 first month, then $8/month",
+   "annual": "$93 first year, then $96/year",
+   "note": "Lite is free in the Cardboard Mac app for Apple silicon."
+  },
+  {
+   "name": "Starter",
+   "monthly": "$9 first month, then $29/month",
+   "annual": "$220 first year, then $240/year"
+  },
+  {
+   "name": "Creator",
+   "monthly": "$30 first month, then $59/month",
+   "annual": "$439 first year, then $468/year"
+  },
+  {
+   "name": "Pro",
+   "monthly": "$89 first month, then $175/month",
+   "annual": "$1,414 first year, then $1,500/year"
+  }
+ ],
+ "plansSource": "JSON-LD Product offers on /pricing, read from the rendered page",
+ "pricingFaq": [
+  "Can I cancel anytime?",
+  "Is there a free plan?",
+  "What happens if I run out of credits?",
+  "Can I change my plan later?"
+ ],
+ "hardProblems": [
+  "01High Performance NLE in the Browser",
+  "02Collaboration",
+  "03Multimodal Understanding",
+  "04Better Context",
+  "05Predicting Next Actions",
+  "06Style References",
+  "07Motion Graphics",
+  "08Memory",
+  "09Verification",
+  "10Version Control",
+  "Want to work on one of these?"
+ ],
+ "changelogEntries": [
+  "Edit Videos in ChatGPT and Claude",
+  "Edit by asking",
+  "No setup, no extra plan",
+  "Finish in Cardboard",
+  "YouTube, straight into your edit",
+  "Faster Exports, Shareable Recipes, Photos to Video",
+  "Faster, steadier exports",
+  "Share a recipe",
+  "Turn your photos into clips",
+  "A lighter Mac app",
+  "Meet Recipes, Make It Yours",
+  "Meet Recipes",
+  "Browse every recipe",
+  "Remix in a few clicks",
+  "Any Footage, Sharper Cutouts, 3D Graphics",
+  "Bring any footage",
+  "Sharper cutouts",
+  "Graphics in 3D",
+  "A calmer agent chat",
+  "Now on Mac, Bring Your Agent",
+  "An app of its own",
+  "Bring your own Claude or Codex agent",
+  "Local by default",
+  "Reliable Exports, Smoother Graphics"
+ ]
+}

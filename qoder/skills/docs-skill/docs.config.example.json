@@ -1,0 +1,73 @@
+{
+  "doc": {
+    "title": "Product Name \u2014 Document Title",
+    "subtitle": "Short subtitle describing the document",
+    "version": "1.0",
+    "date": "2026-10-15",
+    "author": "R&D Team",
+    "company": "Company Name"
+  },
+  "page": {
+    "size": "A4",
+    "orientation": "portrait",
+    "margin_top": 2.0,
+    "margin_bottom": 2.0,
+    "margin_left": 2.0,
+    "margin_right": 2.0,
+    "header_distance": 1.0,
+    "footer_distance": 1.0,
+    "header_gap": 0.8
+  },
+  "cover": {
+    "enabled": true,
+    "logo": "path/to/logo.png"
+  },
+  "toc": {
+    "enabled": true
+  },
+  "styles": {
+    "heading_font": "Calibri",
+    "body_font": "Calibri",
+    "code_font": "Consolas",
+    "body_size": 11,
+    "h1_size": 22,
+    "h2_size": 16,
+    "h3_size": 13,
+    "accent": "#1F4E79",
+    "numbered_headings": false,
+    "h4_size": 11
+  },
+  "header": {
+    "type": "image",
+    "image": "path/to/header-banner.png",
+    "full_bleed": true,
+    "text": "",
+    "font": "Calibri",
+    "size": 9,
+    "color": "#808080",
+    "align": "right",
+    "border": true
+  },
+  "footer": {
+    "type": "text",
+    "image": "",
+    "full_bleed": false,
+    "text": "Confidential \u2014 Company Name",
+    "font": "Calibri",
+    "size": 9,
+    "color": "#808080",
+    "align": "center",
+    "border": true,
+    "page_numbers": true,
+    "number_format": "page_of_numpages"
+  },
+  "tables": {
+    "header_fill": "#1F4E79",
+    "header_font_color": "#FFFFFF",
+    "borders": true,
+    "zebra": true
+  },
+  "images": {
+    "width_cm": 12
+  }
+}

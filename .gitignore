@@ -1,0 +1,17 @@
+# OS and editor noise
+.DS_Store
+Thumbs.db
+**/__pycache__/
+*.pyc
+
+# FCC runtime state and credentials
+.env
+*.lock
+*.db
+*.db-shm
+*.db-wal
+
+# Logs and backups that may contain keys
+*.log
+*.bak
+*.pluginsandskills

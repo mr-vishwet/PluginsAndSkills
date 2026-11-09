@@ -1,0 +1,56 @@
+{
+  "enabledPlugins": {
+    "qoder-context@qoderapp-bundler": true,
+    "Presentations@qoder-marketplace": true,
+    "office-excel@qoder-marketplace": true,
+    "better-harness@qoder-marketplace": true
+  },
+  "mcpServers": {
+    "Lunacy": {
+      "command": "C:/Program Files/Lunacy/Lunacy.exe",
+      "args": [
+        "-mcp"
+      ]
+    },
+    "computer-use": {
+      "args": [
+        "mcp"
+      ],
+      "command": "<QODER_HOME>/bin/qoder-computer-use/QoderComputerUse.exe"
+    }
+  },
+  "providers": {
+    "qoder-custom-77f519ca-b43b-43a1-9aab-8ed761d4864b": {
+      "baseUrl": "http://127.0.0.1:8082/v1",
+      "apiKey": "freecc",
+      "type": "openai-compatible",
+      "protocol": "openai",
+      "authType": "bearer",
+      "model": "nvidia_nim/nvidia/nemotron-3-ultra-550b-a55b",
+      "models": [
+        {
+          "model": "nvidia_nim/nvidia/nemotron-3-ultra-550b-a55b",
+          "displayName": "Nemotron 3 Ultra 550B (Free Claude Code)",
+          "contextWindow": 200000,
+          "maxOutputTokens": 8192,
+          "capabilities": {
+            "vision": false,
+            "thinking": {
+              "modes": [
+                "enabled"
+              ],
+              "supportsEffort": true,
+              "supportedEffortLevels": [
+                "low",
+                "medium",
+                "high",
+                "xhigh",
+                "max"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TaskFlow: turn meeting notes into assigned tasks</title>
+<meta name="description" content="Paste a meeting transcript. TaskFlow splits it into tasks, assigns owners, and sends the summary to your team's tracker.">
+<style>
+  :root {
+    --bg: #FAF7F2;
+    --ink: #1C1B19;
+    --ink-soft: #5C5A54;
+    --rule: #DCD5CA;
+    --accent: #1F3A5F;
+    --step: 1.5rem;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 100%/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  h1, h2 { font-size: clamp(1.9rem, 4vw, 3rem); line-height: 1.08; letter-spacing: -0.02em; margin: 0 0 var(--step); }
+  p { max-width: 62ch; }
+  a { color: var(--accent); }
+  .wrap { max-width: 68rem; margin: 0 auto; padding: 4rem 1.5rem; }
+  .masthead { display: flex; justify-content: space-between; align-items: baseline; gap: 2rem; }
+  .product-shot { margin: 3rem 0 0; width: 100%; height: auto; border: 1px solid var(--rule); }
+  form { display: grid; gap: .75rem; max-width: 30rem; }
+  label { font-weight: 600; }
+  input, textarea { font: inherit; padding: .6rem; border: 1px solid var(--rule); background: #FFFDF9; color: var(--ink); }
+  button { font: inherit; padding: .7rem 1.1rem; border: 0; background: var(--accent); color: #FFFDF9; cursor: pointer; }
+  button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 3px;
+  }
+  .switcher { opacity: 1; transition: opacity 140ms ease-out; }
+  .switcher[hidden] { display: none; }
+  .switcher.is-swapping { opacity: 0; }
+  .footnote { color: var(--ink-soft); font-size: .9rem; }
+  @media (prefers-reduced-motion: reduce) {
+    .switcher { transition: none; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <strong>TaskFlow</strong>
+    <nav><a href="#pricing">Pricing</a> <a href="#sign-in">Sign in</a></nav>
+  </header>
+
+  <main>
+    <h1>Turn meeting notes into assigned tasks</h1>
+    <p>Paste a transcript. TaskFlow splits it into tasks, assigns the owner named
+    in the room, and writes them into Jira or Linear with the source line linked.</p>
+
+    <img class="product-shot" src="taskflow-board.png"
+         alt="TaskFlow board showing six tasks pulled from a standup transcript, each with an owner and a due date"
+         width="1400" height="800">
+
+    <h2 id="pricing">Pricing</h2>
+    <p>$12 per teammate each month. Annual billing takes it to $10. Teams over 50
+    get a per-seat quote from sales.</p>
+
+    <h2 id="sign-in">Try it on your own transcript</h2>
+    <form id="demo-form">
+      <label for="transcript">Meeting transcript</label>
+      <textarea id="transcript" name="transcript" rows="6" required
+                placeholder="Priya: I'll send the vendor the revised quote by Friday"></textarea>
+      <label for="email">Work email</label>
+      <input id="email" name="email" type="email" required>
+      <button type="submit">Create my first board</button>
+      <p class="footnote" id="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </main>
+
+  <footer>
+    <p class="footnote">
+      <a href="/terms">Terms of Service</a>
+      <a href="/privacy">Privacy Policy</a>
+      DRAFT, needs legal review: the data retention period is not set yet.
+    </p>
+  </footer>
+</div>
+
+<script>
+  const form = document.getElementById('demo-form');
+  const status = document.getElementById('form-status');
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    status.textContent = 'Creating your board...';
+    try {
+      const response = await fetch('/api/boards', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(Object.fromEntries(new FormData(form)))
+      });
+      if (!response.ok) throw new Error('request failed');
+      status.textContent = 'Board created. Check your inbox for the link.';
+    } catch (error) {
+      status.textContent = 'We could not reach the server. Nothing was saved. Try again in a moment.';
+    }
+  });
+</script>
+</body>
+</html>

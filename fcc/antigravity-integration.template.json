@@ -1,0 +1,7 @@
+{
+  "settings_path": "<HOME>/.gemini/antigravity-cli/settings.json",
+  "previous_provider": {},
+  "model_keys": [
+    "nvidia_nim/nvidia/nemotron-3-ultra-550b-a55b"
+  ]
+}

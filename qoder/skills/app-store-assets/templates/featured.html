@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- Featured Graphic / banner. Author at 1024x500, render 2x -> resample to 1024x500.
+     THEME: edit the :root block. Place logo.png (and optional screenshot.jpg) next to this file. -->
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    /* ==== EDIT THESE to the target app's theme ==== */
+    --brand:#705BE4; --brand-dark:#5A46C7;      /* primary + pressed/dark */
+    --accent1:#9B67F9; --accent2:#FC5F4A;        /* gradient pair (headline highlight, glow) */
+    --ink:#23204B; --muted:#5B6072;              /* headline text / body text */
+    --bg1:#FBFAFF; --bg2:#F1EEFC; --bg3:#EAE4F9; /* soft background gradient stops */
+    --serif:'Playfair Display',Georgia,serif;    /* display face */
+    --sans:'Inter',-apple-system,Arial,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{width:1024px;height:500px;overflow:hidden;}
+  body{font-family:var(--sans);position:relative;-webkit-font-smoothing:antialiased;color:var(--ink);
+    background:
+      radial-gradient(700px 500px at 82% 20%, rgba(155,103,249,.20) 0%, rgba(155,103,249,0) 60%),
+      radial-gradient(520px 420px at 6% 100%, rgba(112,91,228,.12) 0%, rgba(112,91,228,0) 60%),
+      linear-gradient(120deg,var(--bg1) 0%,var(--bg2) 52%,var(--bg3) 100%);}
+  /* optional faint app screenshot behind the copy */
+  .shot{position:absolute;z-index:0;right:-40px;top:50%;transform:translateY(-50%) rotate(-6deg);
+    width:360px;height:600px;border-radius:46px;overflow:hidden;background-color:#fff;opacity:.16;
+    background-image:url('screenshot.jpg');background-repeat:no-repeat;background-size:250% auto;background-position:50% 56%;
+    -webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 26%,#000 82%,transparent 100%);
+            mask-image:linear-gradient(to bottom,transparent 0,#000 26%,#000 82%,transparent 100%);}
+  .wrap{position:absolute;z-index:2;left:0;top:0;width:100%;height:100%;display:flex;flex-direction:column;
+    justify-content:center;padding:0 64px;max-width:760px;}
+  .badge{width:64px;height:64px;border-radius:16px;overflow:hidden;margin-bottom:18px;border:3px solid rgba(255,255,255,.9);
+    box-shadow:0 10px 26px rgba(60,40,140,.28);}
+  .badge img{width:100%;height:100%;object-fit:cover;display:block;}
+  .eyebrow{display:inline-flex;align-items:center;gap:9px;font-size:13px;font-weight:700;letter-spacing:2.4px;
+    text-transform:uppercase;color:var(--brand-dark);margin-bottom:12px;}
+  .eyebrow .dot{width:8px;height:8px;border-radius:50%;background:linear-gradient(135deg,var(--accent1),var(--accent2));}
+  h1{font-family:var(--serif);font-weight:800;font-size:52px;line-height:1.04;letter-spacing:-.6px;}
+  h1 .hl{background:linear-gradient(120deg,var(--accent1),var(--brand) 55%,var(--accent2));
+    -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;}
+  .sub{margin-top:14px;font-size:19px;line-height:1.4;color:var(--muted);max-width:600px;}
+  .pills{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px;}
+  .pill{display:inline-flex;align-items:center;gap:8px;padding:9px 16px;border-radius:999px;font-size:14px;font-weight:600;
+    color:var(--ink);background:rgba(255,255,255,.82);border:1.5px solid rgba(112,91,228,.22);box-shadow:0 6px 16px rgba(90,70,199,.08);}
+  .pill svg{width:16px;height:16px;}
+</style>
+</head>
+<body>
+  <div class="shot"></div>
+  <div class="wrap">
+    <div class="badge"><img src="logo.png" alt="logo" /></div>
+    <div class="eyebrow"><span class="dot"></span>Your tagline eyebrow</div>
+    <h1>Short punchy<br /><span class="hl">headline here</span></h1>
+    <div class="sub">One sentence that explains the core value of the app to a first-time viewer.</div>
+    <div class="pills">
+      <span class="pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Feature one</span>
+      <span class="pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Feature two</span>
+      <span class="pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Feature three</span>
+    </div>
+  </div>
+</body>
+</html>
